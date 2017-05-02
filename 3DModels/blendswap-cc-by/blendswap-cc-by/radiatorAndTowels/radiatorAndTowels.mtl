@@ -1,0 +1,38 @@
+# Blender MTL File: 'towels.blend'
+# Material Count: 4
+
+newmtl brown
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.45 0.36 0.3
+Ks 0 0 0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl fabric.brown.smooth
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.45 0.36 0.3
+Ks 0 0 0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl rail
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 1 1 1
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl rail.inox
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.91 0.91 0.91
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2

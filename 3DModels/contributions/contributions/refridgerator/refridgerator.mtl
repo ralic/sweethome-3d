@@ -1,0 +1,25 @@
+# refridgerator.mtl Produced by Art of Illusion 2.7.1, Sat May 29 10:38:07 EDT 2010
+#
+# Created by Pencilart
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+newmtl Default_Texture
+Kd 1 1 1
+Ks 0 0 0
+Ka 0 0 0
+illum 1
+newmtl metal
+Kd 0.3933 0.3933 0.3933
+Ks 0.75 0.75 0.75
+Ka 0 0 0
+illum 2
+Ns 103
+newmtl offwhite
+Kd 0.88 0.87208 0.8008
+Ks 0.1 0.1 0.1
+Ka 0 0 0
+illum 2
+Ns 50

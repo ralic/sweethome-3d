@@ -1,0 +1,112 @@
+# Blender MTL File: 'calla_lily_with_roses_sweethome3d.blend'
+# Material Count: 11
+
+newmtl base
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.423529 0.482353 0.090196
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl calla_lily_top
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.915736 1.000000 0.667696
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd calla_lily_body.jpg
+
+newmtl ceramic
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl leaves
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.754239 0.891028 0.513900
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd calla_lily_leaf.jpg
+
+newmtl leaves.001
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.423529 0.482353 0.090196
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Leaf_rose_plain.png
+map_d Leaf_rose_plain.png
+
+newmtl leaves.001_NONE
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.423529 0.482353 0.090196
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd Leaf_rose_plain.png
+map_d Leaf_rose_plain.png
+
+newmtl leaves_fils
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.754239 0.891028 0.513900
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd trunk_leaf_lily.jpg
+
+newmtl leaves_highspec
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.603391 0.712822 0.411120
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd calla_lily_leaf.jpg
+
+newmtl petalred_sideA
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.605199 0.134964 0.134964
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd textures/rose_petal.jpg
+
+newmtl petalred_sideB
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.871367 0.291771 0.291771
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd textures/rose_petal.jpg
+
+newmtl yellow_spadix
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.787451 0.558431 0.163137
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd /media/Lacie/Empresa/venta_modelos/plants_set1/textures/lily_carpel.jpg

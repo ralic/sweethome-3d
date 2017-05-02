@@ -1,0 +1,40 @@
+# Blender MTL File: 'basketball_net_and_board.blend'
+# Material Count: 4
+
+newmtl basketboard
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd basketball_net_and_board_texture.jpg
+
+newmtl basketboard_NONE
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd basketball_net_and_board_texture.jpg
+
+newmtl net
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl orange-metal
+Ns 25.490196
+Ka 0.000000 0.000000 0.000000
+Kd 0.814039 0.155337 0.000000
+Ks 0.377660 0.377660 0.377660
+Ni 1.000000
+d 1.000000
+illum 2

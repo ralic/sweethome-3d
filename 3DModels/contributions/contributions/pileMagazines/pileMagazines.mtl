@@ -1,0 +1,43 @@
+# pileMagazines.mtl produced by Art of Illusion 2.8.1, Thu Jul 04 10:51:52 CEST 2013
+#
+# Created by Thomas PUYBARET / eTeks for Sweet Home 3D
+# Copyright (c) 2013 Emmanuel PUYBARET / eTeks <info@eteks.com>
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+#
+newmtl sh3dMag1
+Kd 1 1 1
+map_Kd pile sh3dMag1.jpg
+Ks 0 0 0
+Ka 0 0 0
+illum 1
+newmtl Blanc
+Kd 0.86 0.86 0.86
+Ks 0 0 0
+Ka 1 1 1
+illum 1
+newmtl sh3dMag4
+Kd 1 1 1
+map_Kd pile sh3dMag4.jpg
+Ks 0 0 0
+Ka 0 0 0
+illum 1
+newmtl sh3dmag2
+Kd 1 1 1
+map_Kd pile sh3dMag2.jpg
+Ks 0 0 0
+Ka 0 0 0
+illum 1
+newmtl sh3dmag3
+Kd 1 1 1
+map_Kd pile sh3dMag3.jpg
+Ks 0 0 0
+Ka 0 0 0
+illum 1
+newmtl bordeaux
+Kd 0.55 0.132 0.2574
+Ks 0 0 0
+Ka 0 0 0
+illum 1

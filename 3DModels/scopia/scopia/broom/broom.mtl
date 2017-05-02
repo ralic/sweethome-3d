@@ -1,0 +1,21 @@
+# Blender MTL File: 'broom.blend'
+# Material Count: 2
+
+newmtl beige-brown
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.904661 0.558341 0.274677
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl black-hair
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.020379 0.020379 0.020379
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd broom_texture.jpg

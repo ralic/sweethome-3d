@@ -1,0 +1,72 @@
+# Blender MTL File: 'fireplace1-sweethome3d.blend'
+# Material Count: 7
+
+newmtl ash
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.246194 0.246194 0.246194
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd fireplace1.jpg
+
+newmtl beige
+Ns 13.725490
+Ka 0.000000 0.000000 0.000000
+Kd 0.737911 0.708376 0.623960
+Ks 0.003759 0.003759 0.003759
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd fireplace1.jpg
+
+newmtl beige_fireplace1.jpg
+Ns 13.725490
+Ka 0.000000 0.000000 0.000000
+Kd 0.737911 0.708376 0.623960
+Ks 0.003759 0.003759 0.003759
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd fireplace1.jpg
+
+newmtl dark-background
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.018849 0.016750 0.011300
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd fireplace1.jpg
+
+newmtl fire
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.755639
+illum 1
+map_Kd fireplace1.jpg
+
+newmtl fired-wood
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.110689 0.099086 0.068674
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd fireplace1.jpg
+
+newmtl grey-iron
+Ns 9.803922
+Ka 0.000000 0.000000 0.000000
+Kd 0.016416 0.013383 0.011342
+Ks 0.018797 0.018797 0.018797
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd fireplace1.jpg

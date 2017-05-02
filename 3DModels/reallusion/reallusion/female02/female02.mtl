@@ -1,0 +1,37 @@
+#
+# (C) Copyrights Reallusion 2011 
+# http://www.reallusion.com/
+#
+# Distributed under Creative Commons Attribution 3.0 United States (CC BY 3.0) license
+# 
+
+newmtl 1
+illum 2
+Ka 0.2 0.2 0.2
+Kd 1.0 1.0 1.0
+Ks 0.1 0.1 0.1
+Ns 0
+map_Kd female02_1.jpg
+
+newmtl 2
+illum 2
+Ka 0.2 0.2 0.2
+Kd 1.0 1.0 1.0
+Ks 0.1 0.1 0.1
+Ns 0
+map_Kd female02_2.jpg
+
+newmtl 3
+illum 2
+Ka 0.0 0.0 0.0
+Kd 1.0 1.0 1.0
+Ks 0.1 0.1 0.1
+Ns 0
+
+newmtl 10
+illum 2
+Ka 0.2 0.2 0.2
+Kd 1.0 1.0 1.0
+Ks 0.1 0.1 0.1
+Ns 0
+map_Kd female02_10.jpg

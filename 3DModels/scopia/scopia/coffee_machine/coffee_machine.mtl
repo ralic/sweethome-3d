@@ -1,0 +1,23 @@
+# Blender3D MTL File: coffee_machine_sweethome3d_249.blend
+# Material Count: 2
+newmtl black_plastic_base_holes.png
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.058134 0.058134 0.058134
+Ks 0.412128 0.412128 0.412128
+Ni 1.000000
+d 1.000000
+illum 1
+
+
+newmtl metal_base_holes.png
+Ns 190.196078
+Ka 0.000000 0.000000 0.000000
+Kd 0.615884 0.615884 0.615884
+Ks 0.296368 0.296368 0.296368
+Ni 1.000000
+d 1.000000
+illum 3
+map_Kd mechanika_espresso_texture.png
+
+

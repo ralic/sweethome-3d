@@ -1,0 +1,52 @@
+# Blender MTL File: 'Card Games.blend'
+# Material Count: 5
+
+newmtl Mat_card_1
+Ns 96.078431
+Ka 0.008696 0.008696 0.008696
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 3
+map_Kd textureCarte1.png
+
+newmtl Mat_card_2
+Ns 96.078431
+Ka 0.008696 0.008696 0.008696
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 3
+map_Kd textureCarte2.png
+
+newmtl Mat_card_3
+Ns 96.078431
+Ka 0.008696 0.008696 0.008696
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 3
+map_Kd textureCarte3.png
+
+newmtl Mat_card_4
+Ns 96.078431
+Ka 0.008696 0.008696 0.008696
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 3
+map_Kd textureCarte4.png
+
+newmtl Mat_card_5
+Ns 96.078431
+Ka 0.008696 0.008696 0.008696
+Kd 0.800000 0.800000 0.800000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 3
+map_Kd textureCarte5.png

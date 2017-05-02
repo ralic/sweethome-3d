@@ -1,0 +1,21 @@
+# Blender MTL File: 'untitled.blend'
+# Material Count: 2
+
+newmtl Feet
+Ns 10
+Ka 0.000000 0.000000 0.000000
+Kd 0.34 0.22 0.06
+Ks 0.1 0.1 0.1
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Sofa
+Ns 30
+Ka 0.000000 0.000000 0.000000
+Kd 0.2 0.2 0.2
+Ks 0.25 0.25 0.25
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd dark-brown_leather.jpg

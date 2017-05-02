@@ -1,0 +1,76 @@
+# Blender3D MTL File: office_box.blend
+# Material Count: 7
+newmtl os_lit_etiqueta_os_lit.jpg
+Ns 170.588235
+Ka 0.000000 0.000000 0.000000
+Kd 0.181961 0.181961 0.181961
+Ks 1.535886 1.535886 1.535886
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd etiqueta_os_lit.jpg
+
+
+newmtl taronja
+Ns 170.588235
+Ka 0.000000 0.000000 0.000000
+Kd 0.181961 0.181961 0.181961
+Ks 1.535886 1.535886 1.535886
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl armario_beige.001
+Ns 158.823529
+Ka 0.000000 0.000000 0.000000
+Kd 0.732157 0.732157 0.613520
+Ks 1.130191 1.130191 1.130191
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl armario_beige_big_etiqueta_cl_big.jpg
+Ns 158.823529
+Ka 0.000000 0.000000 0.000000
+Kd 0.735533 0.732935 0.614330
+Ks 1.130191 1.130191 1.130191
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd etiqueta_cl_big.jpg
+
+
+newmtl armario_beige_lit_etiqueta_cl_lit.jpg
+Ns 158.823529
+Ka 0.000000 0.000000 0.000000
+Kd 0.735533 0.732935 0.614330
+Ks 1.130191 1.130191 1.130191
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd etiqueta_cl_lit.jpg
+
+
+newmtl os_big_etiqueta_os_big.jpg
+Ns 170.588235
+Ka 0.000000 0.000000 0.000000
+Kd 0.181961 0.181961 0.181961
+Ks 1.535886 1.535886 1.535886
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd etiqueta_os_big.jpg
+
+
+newmtl plastico_negro
+Ns 84.313725
+Ka 0.000000 0.000000 0.000000
+Kd 0.146245 0.146245 0.146245
+Ks 0.251958 0.251958 0.251958
+Ni 1.000000
+d 1.000000
+illum 2
+
+

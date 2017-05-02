@@ -1,0 +1,77 @@
+LICENSE
+	
+The sh3t file and its content are under the Creative Commons Attribution 4.0 International license 
+available at:
+	
+http://creativecommons.org/licenses/by/4.0/
+	
+You are free to:
+
+	Share - copy and redistribute the material in any medium or format 
+
+    Adapt - remix, transform, and build upon the material
+
+    for any purpose, even commercially.
+
+	The licensor cannot revoke these freedoms as long as you follow the license terms.
+
+Under the following conditions:
+
+	Attribution - You must give appropriate credit, provide a link to the license, and indicate 
+                      if changes were made. You may do so in any reasonable manner, but not in any way 
+                      that suggests the licensor endorses you or your use.
+
+    No additional restrictions - You may not apply legal terms or technological measures that 
+                        legally restrict others from doing anything the license permits.
+
+Notices
+
+	You do not have to comply with the license for elements of the material in the public domain 
+        or where your use is permitted by an applicable exception or limitation.
+
+        No warranties are given. The license may not give you all of the permissions necessary 
+        for your intended use. For example, other rights such as publicity, privacy, or moral rights 
+        may limit how you use the material.
+
+
+(C) Copyrights 2017 Ola-Kristian Hoff / eTeks <info@eteks.com>
+
+for the 33 following texture images:
+- alu_siding_greyscale2.png
+- beige_brown_tiles.jpg
+- beige_tiles.jpg
+- beige_tiles_frieze.jpg
+- cobblest.png
+- curtains.png
+- grass3.jpg
+- laft_05_light.jpg
+- laft_05.jpg
+- light_wood.png
+- paving_stone_2.jpg
+- red_bricks.jpg
+- red_tiles.jpg
+- roughtcast2.png
+- red_slates.jpg
+- shower_tiles.png
+- sauna_panel.jpg
+- stain_glass.png
+- stain_glass_2.png
+- texture_knit.jpg
+- tile_burg_shad.jpg
+- tile_deco_wall.png
+- tile_wall_pattern.jpg
+- tile_wall3.png
+- tommerstokker_1.jpg
+- wall_texture_blue.jpg
+- wall_texture_green.jpg
+- wall_texture_red.jpg
+- wall_texture_white.jpg
+- wallp_fleur_de_lis_blue_multi.png
+- wallp_fleur_de_lis_green_multi.png
+- wallp_fleur_de_lis_red_multi.png
+- wallp_tomatoes.jpg
+
+
+(C) Copyrights 2014-2017 Emmanuel PUYBARET / eTeks <info@eteks.com>
+
+for all the other texture images 

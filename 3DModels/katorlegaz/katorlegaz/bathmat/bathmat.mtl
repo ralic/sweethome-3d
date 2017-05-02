@@ -1,0 +1,12 @@
+# Blender MTL File: 'bathmat.blend'
+# Material Count: 1
+
+newmtl Bathmat
+Ns 37.254902
+Ka 0.000000 0.000000 0.000000
+Kd 0.917267 0.917267 0.917267
+Ks 0.146584 0.146584 0.146584
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd bathmat.jpg

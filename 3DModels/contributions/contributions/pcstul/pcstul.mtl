@@ -1,0 +1,37 @@
+# pcstul.mtl  Blender3D MTL File: pcstul.blend
+# www.blender.org
+#
+# Copyrights (C) 2009  Jarda Benkovsky
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# 
+# Material Count: 3
+
+newmtl black_metal
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.058550 0.048791 0.048791
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl Wood
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.557 0.439 0.204
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl gray_plastic
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.542417 0.542417 0.640000
+Ks 0.378021 0.384120 0.414615
+Ni 1.000000
+d 1.000000
+illum 2

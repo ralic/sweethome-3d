@@ -1,0 +1,22 @@
+# stairs_rail.mtl
+#
+# Created by Ola-Kristian HOFF
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+#
+
+newmtl rail
+illum 1
+Ka 0.2 0.2 0.2
+Kd 0.8039216 0.52156866 0.24705882
+Ks 0.0 0.0 0.0
+Ns 1.0
+
+newmtl attach
+illum 1
+Ka 0.2 0.2 0.2
+Kd 0.85490197 0.64705884 0.1254902
+Ks 0.0 0.0 0.0
+Ns 1.0

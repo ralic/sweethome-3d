@@ -1,0 +1,33 @@
+# Blender3D MTL File: living_room_table_sweethome3d.blend
+# Material Count: 3
+newmtl beige_wood_wood_bump.jpg
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.793726 0.727843
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+
+newmtl glass
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.636877 0.704942 0.776305
+Ks 0.500000 0.500000 0.500000
+Ni 1.500000
+d 0.176660
+illum 2
+
+
+newmtl beige_wood_beige_tileable.jpg
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.793726 0.727843
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd beige_tileable.jpg
+
+

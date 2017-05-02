@@ -1,0 +1,50 @@
+# Blender MTL File: 'IKEA_PS_2012_Three_seat_sofa_white-beige_cycles.blend'
+# Material Count: 5
+
+newmtl beige-brown
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.283149 0.212231 0.147027
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl beige-fabric-base
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.758519 0.754383 0.604141
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd fabric_three_seat_sofa_base.jpg
+
+newmtl beige-fabric-borders
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.613337 0.464081
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd fabric_three_seat_sofa.jpg
+
+newmtl beige-fabric-borders_fabric_three_seat_sofa_base.jpg
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.613337 0.464081
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd fabric_three_seat_sofa_base.jpg
+
+newmtl blue-mate-steel
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.900000 0.900000 0.900000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1

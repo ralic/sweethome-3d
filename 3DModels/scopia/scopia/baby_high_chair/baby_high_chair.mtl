@@ -1,0 +1,39 @@
+# Blender MTL File: 'baby_high_chair.blend'
+# Material Count: 4
+
+newmtl beige-plastic
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.798882 0.800000 0.672036
+Ks 0.069565 0.069565 0.069565
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl brown-plastic
+Ns 11.764706
+Ka 0.000000 0.000000 0.000000
+Kd 0.139208 0.097086 0.035835
+Ks 0.069565 0.069565 0.069565
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl fabric-chair
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd texture-baby-high-chair.jpg
+
+newmtl metalic-beige
+Ns 168.627451
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.799735 0.737968
+Ks 0.717391 0.717391 0.717391
+Ni 1.000000
+d 1.000000
+illum 2

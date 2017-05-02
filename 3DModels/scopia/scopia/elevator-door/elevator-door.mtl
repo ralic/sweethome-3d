@@ -1,0 +1,61 @@
+# Blender MTL File: 'elevator-door.blend'
+# Material Count: 6
+
+newmtl Material
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd elevator-door.jpg
+
+newmtl color-frame
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.896901 0.758641
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl display
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.004363 0.012796 0.004693
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd elevator-door.jpg
+
+newmtl guide
+Ns 25.490196
+Ka 0.000000 0.000000 0.000000
+Kd 0.201900 0.201900 0.201900
+Ks 0.051084 0.051084 0.051084
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd elevator-door.jpg
+
+newmtl metal
+Ns 101.960784
+Ka 0.000000 0.000000 0.000000
+Kd 0.592577 0.592577 0.592577
+Ks 0.072165 0.072165 0.072165
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd elevator-door.jpg
+
+newmtl metal-buttons
+Ns 101.960784
+Ka 0.000000 0.000000 0.000000
+Kd 0.367237 0.367237 0.367237
+Ks 0.072165 0.072165 0.072165
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd elevator-door.jpg

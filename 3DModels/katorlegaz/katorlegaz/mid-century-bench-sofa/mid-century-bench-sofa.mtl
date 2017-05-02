@@ -1,0 +1,22 @@
+# Blender3D MTL File: mid-century-bench-sofa.blend
+# Material Count: 2
+newmtl PAINT_black
+Ns 194.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl TEXTILE_generic
+Ns 17.647059
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.240000 0.000000
+Ks 0.050000 0.025000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+

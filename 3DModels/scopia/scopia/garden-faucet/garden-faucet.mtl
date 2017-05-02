@@ -1,0 +1,11 @@
+# Blender MTL File: 'garden-faucet-lowpoly.blend'
+# Material Count: 1
+
+newmtl brown-metal
+Ns 196.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.661862 0.474991 0.080650
+Ks 0.452000 0.330792 0.257335
+Ni 1.000000
+d 1.000000
+illum 2

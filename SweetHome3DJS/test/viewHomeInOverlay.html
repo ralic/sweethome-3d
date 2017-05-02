@@ -1,0 +1,94 @@
+<!--
+   viewHomeInOverlay.html 
+   
+   Sweet Home 3D, Copyright (c) 2016 Emmanuel PUYBARET / eTeks <info@eteks.com>
+   
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+ 
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program; if not, write to the Free Software
+   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>View home with Sweet Home 3D HTML5 Viewer</title>
+<base href="..">
+<script type="text/javascript" src="lib/big.min.js"></script>
+<script type="text/javascript" src="lib/gl-matrix-min.js"></script>
+<script type="text/javascript" src="lib/jszip.min.js"></script>
+<script type="text/javascript" src="lib/jsXmlSaxParser.min.js"></script>
+
+<script type="text/javascript" src="src/core.js"></script>
+<script type="text/javascript" src="src/URLContent.js"></script>
+<script type="text/javascript" src="src/scene3d.js"></script>
+<script type="text/javascript" src="src/HTMLCanvas3D.js"></script>
+<script type="text/javascript" src="src/ModelManager.js"></script>
+<script type="text/javascript" src="src/ModelLoader.js"></script>
+<script type="text/javascript" src="src/OBJLoader.js"></script>
+<script type="text/javascript" src="src/Max3DSLoader.js"></script>
+<script type="text/javascript" src="src/DAELoader.js"></script>
+<script type="text/javascript" src="src/Triangulator.js"></script>
+
+<script type="text/javascript" src="lib/generated/geom.js"></script>
+<script type="text/javascript" src="lib/generated/batik-svgpathparser.js"></script>
+<script type="text/javascript" src="lib/generated/SweetHome3D.js"></script>
+<script type="text/javascript" src="src/HomeRecorder.js"></script>
+<script type="text/javascript" src="src/HomeComponent3D.js"></script>
+<script type="text/javascript" src="src/Object3DBranch.js"></script>
+<script type="text/javascript" src="src/HomePieceOfFurniture3D.js"></script>
+<script type="text/javascript" src="src/Room3D.js"></script>
+<script type="text/javascript" src="src/Wall3D.js"></script>
+<script type="text/javascript" src="src/Ground3D.js"></script>
+<script type="text/javascript" src="src/Label3D.js"></script>
+<script type="text/javascript" src="src/TextureManager.js"></script>
+<script type="text/javascript" src="src/UserPreferences.js"></script>
+<script type="text/javascript" src="src/LengthUnit.js"></script>
+<script type="text/javascript" src="src/viewHome.js"></script>
+
+<style type="text/css">
+/* The class of components handled by the viewer */
+.viewerComponent  {
+  font-style: italic;
+}
+#viewerProgressLabel {
+  font-weight: bold; 
+}
+</style>
+</head>
+
+<body>
+<div>
+  <!-- Mouse and keyboard navigation explained at 
+       http://sweethome3d.cvs.sf.net/viewvc/sweethome3d/SweetHome3D/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/editing3DView.html 
+       You may also switch between aerial view and virtual visit with the space bar -->
+  <button onclick='
+       viewerCanvasId = "viewerCanvas";
+       viewHomeInOverlay("test/resources/SweetHome3DExample6.sh3d", 
+              {roundsPerMinute:    2,                        /* Rotation speed of the animation launched once home is loaded in rounds per minute, no animation if missing */ 
+               widthByHeightRatio: 3/2,                      /* Size ratio of the displayed canvas */
+               navigationPanel:                              /* Displayed navigation arrows, "none" or "default" for default one or an HTML string containing elements with data-simulated-key 
+                                                                attribute set "UP", "DOWN", "LEFT", "RIGHT"... to replace the default navigation panel, "none" if missing */
+                     "<table style=\"margin: 20px;\"><tr><td></td><td><button data-simulated-key=\"UP\">&uarr;</button></td><td></td></tr>"
+                   + "<tr><td><button data-simulated-key=\"LEFT\">&larr;</button></td><td></td><td><button data-simulated-key=\"RIGHT\">&rarr;</button></td></tr>"
+                   + "<tr><td></td><td><button data-simulated-key=\"DOWN\">&darr;</button></td><td></td></tr></table>",
+               aerialViewButtonText: "Aerial view",          /* Text displayed for aerial view radio button, no radio buttons if missing */ 
+               virtualVisitButtonText: "Virtual visit",      /* Text displayed for virtual visit radio button, no radio buttons if missing */
+            /* selectableLevels: ["Level 0", "Level 1"], */  /* Uncomment to choose the list of displayed levels, no select component if empty array */
+               viewerControlsAdditionalHTML:                 /* Additional HTML text appended to controls displayed below the canvas 3D, by default empty */
+                    "<button onclick=\"document.getElementById(viewerCanvasId).homePreviewComponent.startRotationAnimation(Math.random() * 5);\">Retart animation</button>",
+               readingHomeText: "Reading",                   /* Comment displayed while reading home */
+               readingModelText: "Model",                    /* Comment displayed while reading models */
+               noWebGLSupportError: "No WebGL support"       /* Error message displayed if the browser do not support WebGL */
+              })'>View home</button>
+</div>
+</body>
+</html>

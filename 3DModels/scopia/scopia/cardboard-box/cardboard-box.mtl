@@ -1,0 +1,21 @@
+# Blender MTL File: 'cardboard-box-irregular.blend'
+# Material Count: 2
+
+newmtl cardboard
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.630755 0.535209 0.402146
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd cardboard-box-texture.jpg
+
+newmtl tape
+Ns 80
+Ka 0.000000 0.000000 0.000000
+Kd 0.47 0.36 0.27
+Ks 0.428105 0.428105 0.428105
+Ni 1.000000
+d 1.000000
+illum 2

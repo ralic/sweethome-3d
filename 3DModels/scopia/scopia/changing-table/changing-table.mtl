@@ -1,0 +1,23 @@
+# Blender MTL File: 'changing-table.blend'
+# Material Count: 2
+
+newmtl green-fabric
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd changing-table-texture.jpg
+
+newmtl white-wood
+Ns 5.882353
+Ka 1.000000 1.000000 1.000000
+Kd 0.683983 0.683983 0.683983
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1

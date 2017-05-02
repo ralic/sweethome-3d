@@ -1,0 +1,30 @@
+# chair2.mtl
+#
+# Copyrights (C) 2010  Peter Smolik
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+
+newmtl Chair2_1
+illum 2
+Ka 0.066667 0.066667 0.066667
+Kd 0.066667 0.066667 0.066667
+Ks 0.611765 0.611765 0.611765
+Ns 2.59047
+
+newmtl Chair2_2
+illum 2
+Ka 0 0 0
+Kd 1 1 1
+Ks 0 0 0
+Ns 8
+map_Kd Textile3.jpg
+
+newmtl Chair2_3
+illum 2
+Ka 0.219608 0.219608 0.219608
+Kd 0.313726 0.313726 0.313726
+Ks 1 1 1
+Ns 3.7815

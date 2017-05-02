@@ -1,0 +1,13 @@
+# Blender3D MTL File: 
+# Material Count: 1
+newmtl fusta_taula_wood_bump_wood_bump.jpg
+Ns 78.431373
+Ka 0.000000 0.000000 0.000000
+Kd 0.089360 0.089360 0.089360
+Ks 0.250086 0.250086 0.250086
+Ni 1.200000
+d 1.000000
+illum 2
+map_Kd wood_bump.jpg
+
+

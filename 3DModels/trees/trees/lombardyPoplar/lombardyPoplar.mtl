@@ -1,0 +1,58 @@
+# lombardyPoplar.mtl Produced with Arabaro 2.0 from lombardy_poplar.xml
+#
+# Created by Wolfram Diestel and simplified by Emmanuel Puybaret
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+newmtl stems_2
+Ns 96.078431
+Ka 0.466 0.392 0.216
+Kd 0.466 0.392 0.216
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl trunk
+Ns 96.078431
+Ka 0.466 0.392 0.216
+Kd 0.466 0.392 0.216
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl leaves
+Ns 96.078431
+Ka 0.208 0.376 0.047
+Kd 0.208 0.376 0.047
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl stems_1
+Ns 96.078431
+Ka 0.466 0.392 0.216
+Kd 0.466 0.392 0.216
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl stems_3
+Ns 96.078431
+Ka 0.466 0.392 0.216
+Kd 0.466 0.392 0.216
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+

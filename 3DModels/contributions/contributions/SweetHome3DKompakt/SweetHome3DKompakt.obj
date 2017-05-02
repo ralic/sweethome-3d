@@ -1,0 +1,86 @@
+# SweetHome3DKompakt.obj produced by Art of Illusion 2.8.1, Mon Jul 15 11:12:44 CEST 2013
+#
+# Copyright (c) 2013 Emmanuel PUYBARET / eTeks <info@eteks.com>
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+#
+mtllib SweetHome3DKompakt.mtl
+s 0
+g pages
+usemtl papier
+v -7.295 -0.765 10.3
+v 7.205 -0.765 10.3
+v 7.205 -0.765 -10.3
+v -7.295 -0.765 -10.3
+v -7.295 0.535 10.3
+v 7.205 0.535 10.3
+v 7.205 0.535 -10.3
+v -7.295 0.535 -10.3
+v -0.045 -0.115 10.3
+v 7.205 -0.115 0
+v -0.045 -0.115 -10.3
+f 2 3 10
+f 3 7 10
+f 7 6 10
+f 6 2 10
+f 1 2 9
+f 2 6 9
+f 6 5 9
+f 5 1 9
+f 3 4 11
+f 4 8 11
+f 8 7 11
+f 7 3 11
+s 0
+g C1
+usemtl cover
+v -7.295 0.535 10.3
+v 7.205 0.535 10.3
+v 7.205 0.535 -10.3
+v -7.295 0.535 -10.3
+v -0.045 0.535 0
+vt -0.48238 0
+vt -0.00162 0
+vt -0.00162 1
+vt -0.48238 1
+vt -0.242 0.5
+f 12/1 13/2 16/5
+f 13/2 14/3 16/5
+f 14/3 15/4 16/5
+f 15/4 12/1 16/5
+s 0
+g tranche
+usemtl cover
+v -7.295 -0.765 10.3
+v -7.295 -0.765 -10.3
+v -7.295 0.535 10.3
+v -7.295 0.535 -10.3
+v -7.295 -0.115 0
+vt 0.47617 0
+vt 0.47617 1
+vt 0.51783 0
+vt 0.51783 1
+vt 0.497 0.5
+f 18/7 17/6 21/10
+f 17/6 19/8 21/10
+f 19/8 20/9 21/10
+f 20/9 18/7 21/10
+s 0
+g C4
+usemtl cover
+v -7.295 -0.765 10.3
+v 7.205 -0.765 10.3
+v 7.205 -0.765 -10.3
+v -7.295 -0.765 -10.3
+v -0.045 -0.765 0
+vt -0.51762 1
+vt -0.99838 1
+vt -0.99838 0
+vt -0.51762 0
+vt -0.758 0.5
+f 23/12 22/11 26/15
+f 24/13 23/12 26/15
+f 25/14 24/13 26/15
+f 22/11 25/14 26/15

@@ -1,0 +1,27 @@
+#
+# (C) Copyrights Reallusion 2013 
+# http://www.reallusion.com/
+#
+# Distributed under Creative Commons Attribution 3.0 United States (CC BY 3.0) license
+# 
+newmtl 01-Default
+    Ns 50
+    d 1.000000
+    Ka 1.000000 1.000000 1.000000
+    Kd 1.000000 1.000000 1.000000
+    Ks 0.5 0.5 0.5
+    map_Kd Dress03_57.jpg
+newmtl 03-Default
+    Ns 1
+    d 1.000000
+    Ka 1.000000 1.000000 1.000000
+    Kd 1.000000 1.000000 1.000000
+    Ks 0 0 0
+    map_Kd Dress03_54.jpg
+newmtl 02-Default
+    Ns 9.999999
+    d 1.000000
+    Ka 1.000000 1.000000 1.000000
+    Kd 1.000000 1.000000 1.000000
+    Ks 0.2 0.2 0.2
+    map_Kd Dress03_56.jpg

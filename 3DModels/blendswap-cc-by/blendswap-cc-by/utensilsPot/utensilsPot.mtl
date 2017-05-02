@@ -1,0 +1,20 @@
+# Blender MTL File: 'cocina-II.blend'
+# Material Count: 2
+
+newmtl Material.007
+Ns 150
+Ka 0.000000 0.000000 0.000000
+Kd 0.5 0.5 0.5
+Ks 0.5 0.5 0.5
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Material.023
+Ns 1
+Ka 0.000000 0.000000 0.000000
+Kd 0.686 0.442 0.325
+Ks 0.1 0.1 0.1
+Ni 1.000000
+d 1.000000
+illum 2

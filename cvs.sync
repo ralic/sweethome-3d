@@ -1,0 +1,17 @@
+git cvsimport -d:pserver:anonymous@sweethome3d.cvs.sourceforge.net:/cvsroot/sweethome3d login 
+cvs -z3 -d:pserver:anonymous@sweethome3d.cvs.sourceforge.net:/cvsroot/sweethome3d co -P 3DModels
+
+git cvsimport -d:pserver:anonymous@sweethome3d.cvs.sourceforge.net:/cvsroot/sweethome3d login 
+cvs -z3 -d:pserver:anonymous@sweethome3d.cvs.sourceforge.net:/cvsroot/sweethome3d co -P FurnitureLibraryEditor
+
+git cvsimport -d:pserver:anonymous@sweethome3d.cvs.sourceforge.net:/cvsroot/sweethome3d login cvs -z3 -d:pserver:anonymous@sweethome3d.cvs.sourceforge.net:/cvsroot/sweethome3d co -P SweetHome3D
+
+git cvsimport -d:pserver:anonymous@sweethome3d.cvs.sourceforge.net:/cvsroot/sweethome3d login 
+cvs -z3 -d:pserver:anonymous@sweethome3d.cvs.sourceforge.net:/cvsroot/sweethome3d co -P SweetHome3DJS
+
+git cvsimport -d:pserver:anonymous@sweethome3d.cvs.sourceforge.net:/cvsroot/sweethome3d login 
+cvs -z3 -d:pserver:anonymous@sweethome3d.cvs.sourceforge.net:/cvsroot/sweethome3d co -P Textures
+
+
+git cvsimport -d:pserver:anonymous@sweethome3d.cvs.sourceforge.net:/cvsroot/sweethome3d login 
+cvs -z3 -d:pserver:anonymous@sweethome3d.cvs.sourceforge.net:/cvsroot/sweethome3d co -P TexturesLibraryEditor

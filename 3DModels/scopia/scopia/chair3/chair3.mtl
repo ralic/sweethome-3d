@@ -1,0 +1,21 @@
+# Blender3D MTL File: 
+# Material Count: 3
+newmtl silla_co_telas_telas_gr.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.511373 0.511373 0.511373
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd telas_groges.jpg
+
+
+newmtl metall
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.050196 0.050196 0.050196
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2

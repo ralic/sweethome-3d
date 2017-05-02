@@ -1,0 +1,24 @@
+# ceiling_lamp_globo_feria.mtl
+#
+# Created by MineaCristian
+# http://sourceforge.net/p/sweethome3d/d-models/280/
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+#
+
+newmtl Glass
+illum 1
+Ka 0.0 0.0 0.0
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+Ns 80
+d 0.3
+
+newmtl Mirror
+illum 2
+Ka 0.2 0.2 0.2
+Kd 1.0 1.0 1.0
+Ks 0.5 0.5 0.5
+Ns 96.0
+Ni 1.0
+map_Kd mirror.png

@@ -1,0 +1,76 @@
+# clothes_line.mtl
+#
+# Modeled by Ola-Kristian HOFF
+# http://sourceforge.net/p/sweethome3d/d-models/366/
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+
+newmtl Clothesline
+illum 3
+Ka 0.7647059 0.7647059 0.7647059
+Kd 0.7647059 0.7647059 0.7647059
+Ks 1.0 1.0 1.0
+Ns 128.0
+
+newmtl Linen1
+illum 1
+Ka 0.2 0.2 0.2
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ns 1.0
+map_Kd linen.png
+
+newmtl Linen2
+illum 1
+Ka 0.2 0.2 0.2
+Kd 1.0 0.8941176 0.7686275
+Ks 0.0 0.0 0.0
+Ns 1.0
+
+newmtl Cloth1
+illum 1
+Ka 0.2 0.2 0.2
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ns 1.0
+map_Kd cloth1.png
+
+newmtl Cloth2
+illum 1
+Ka 0.2 0.2 0.2
+Kd 0.545098 0.0 0.0
+Ks 0.46875 0.46875 0.46875
+Ns 60.0
+
+newmtl Cloth3
+illum 1
+Ka 0.2 0.2 0.2
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ns 1.0
+map_Kd cloth3.jpg
+
+newmtl Cloth4
+illum 1
+Ka 0.2 0.2 0.2
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ns 1.0
+map_Kd cloth4.png
+
+newmtl Pinch
+illum 1
+Ka 0.2 0.2 0.2
+Kd 0.627451 0.3215686 0.1764706
+Ks 0.0 0.0 0.0
+Ns 1.0
+
+newmtl Spring
+illum 3
+Ka 0.2 0.2 0.2
+Kd 0.3176471 0.3176471 0.3176471
+Ks 1.0 1.0 1.0
+Ns 128.0

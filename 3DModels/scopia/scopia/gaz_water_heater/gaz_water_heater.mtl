@@ -1,0 +1,61 @@
+# Blender MTL File: 'gaz_water_heater.blend'
+# Material Count: 6
+
+newmtl black-and-flame
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.076580 0.076580 0.076580
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd map-and-flame.jpg
+
+newmtl plastic-grey
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.177888 0.177888 0.177888
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd map-and-flame.jpg
+
+newmtl plastic-grey-basic
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.177888 0.177888 0.177888
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl plastic-white
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.787399 0.787399 0.787399
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd map-and-flame.jpg
+
+newmtl red-signal
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.485150 0.026241 0.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd map-and-flame.jpg
+
+newmtl white
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.032520 0.032520 0.032520
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd map-and-flame.jpg

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!-- build.xml
+
+     Copyright (c) 2014-2017 Emmanuel PUYBARET / eTeks <info@eteks.com>. All Rights Reserved.
+     
+     Ant build file. Available targets :
+     - Textures : Builds *.sh3t files and include each of them in a .zip file for distribution
+-->
+<project basedir="." default="Textures" name="SweetHome3D textures">
+  <!-- The current version of a SH3F file -->
+  <property name="version" value="1.2"/>
+	
+  <target name="Textures">
+  	<mkdir dir="install"/>
+  	
+    <zip destfile="install/Contributions.sh3t" basedir="contributions"/>
+    <zip destfile="install/Textures-Contributions-${version}.zip" basedir="install" includes="Contributions.sh3t"/>
+    <zip destfile="install/Textures-Contributions-${version}.zip" update="true" basedir="." includes="README.TXT"/>
+    <zip destfile="install/Textures-Contributions-${version}.zip" update="true" basedir="contributions" includes="LICENSE.TXT"/>
+    <delete file="install/Contributions.sh3t"/>
+    
+    <zip destfile="install/eTeksScopia.sh3t" basedir="eteks-scopia"/>
+    <zip destfile="install/Textures-eTeksScopia-${version}.zip" basedir="install" includes="eTeksScopia.sh3t"/>
+    <zip destfile="install/Textures-eTeksScopia-${version}.zip" update="true" basedir="." includes="README.TXT"/>
+    <zip destfile="install/Textures-eTeksScopia-${version}.zip" update="true" basedir="eteks-scopia" includes="LICENSE.TXT"/>
+    <delete file="install/eTeksScopia.sh3t"/>
+
+    <echo message="SH3T files generated in install folder"/>
+  </target>
+</project>

@@ -1,0 +1,16 @@
+# mensolaBlu.mtl 3D model
+#
+# Created by LucaPresidente
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+
+newmtl Box39_1
+illum 2
+Ka 0.1922 0.1804 0.4353
+Kd 0.1137 0.3294 0.7765
+Ks 0.405 0.405 0.405
+Ns 10.0
+Ni 1.5

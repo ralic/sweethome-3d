@@ -1,0 +1,13 @@
+# Blender3D MTL File: vases.blend
+# Material Count: 1
+newmtl brown_shapes_ABSTRACT.JPG
+Ns 35.294118
+Ka 0.000000 0.000000 0.000000
+Kd 0.322676 0.139627 0.139627
+Ks 0.949018 0.949018 0.949018
+Ni 1.200000
+d 1.000000
+illum 2
+map_Kd ABSTRACT.JPG
+
+

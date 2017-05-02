@@ -1,0 +1,23 @@
+#Produced by Art of Illusion 2.7.2, Wed Nov 18 13:50:38 PST 2009
+newmtl cherry
+Kd 0.398 0.002 0.002
+Ks 0.53 0.53 0.53
+Ka 0 0 0
+illum 2
+Ns 103
+newmtl green
+Kd 0 0.52 0.0832
+Ks 0 0 0
+Ka 0 0 0
+illum 1
+newmtl features
+Kd 0.4862 0.19666 0.0338
+Ks 0.2 0.2 0.2
+Ka 0 0 0
+illum 2
+Ns 103
+newmtl Default_Texture
+Kd 1 1 1
+Ks 0 0 0
+Ka 0 0 0
+illum 1

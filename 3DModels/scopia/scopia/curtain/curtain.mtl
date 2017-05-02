@@ -1,0 +1,12 @@
+# Blender MTL File: 'curtain3.blend'
+# Material Count: 1
+
+newmtl fabric
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.774180 0.610085
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.66
+illum 1
+map_Kd beige_pattern.jpg

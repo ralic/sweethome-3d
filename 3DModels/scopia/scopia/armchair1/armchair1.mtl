@@ -1,0 +1,22 @@
+# Blender3D MTL File: armchair1.blend
+# Material Count: 2
+newmtl cuero_granate
+Ns 35.294118
+Ka 0.000000 0.000000 0.000000
+Kd 0.683423 0.214258 0.322850
+Ks 0.910587 0.910587 0.910587
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl patas_metal
+Ns 423.529412
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.929489 1.929489 1.929489
+Ni 1.000000
+d 1.000000
+illum 2
+
+

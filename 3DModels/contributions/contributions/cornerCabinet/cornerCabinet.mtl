@@ -1,0 +1,21 @@
+# cornerCabinet.mtl Produced by Art of Illusion 2.7.1, Wed Jun 02 14:41:00 EDT 2010
+#
+# Created by Pencilart
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+
+newmtl marble2
+Kd 1 1 1
+map_Kd cornerCabinet2.jpg
+Ks 0 0 0
+Ka 0 0 0
+illum 1
+newmtl wood
+Kd 1 1 1
+map_Kd cornerCabinet1.jpg
+Ks 0 0 0
+Ka 0 0 0
+illum 1

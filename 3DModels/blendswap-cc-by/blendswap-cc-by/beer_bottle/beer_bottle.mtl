@@ -1,0 +1,30 @@
+# Blender MTL File: 'botella_generica_3D.blend'
+# Material Count: 3
+
+newmtl beer__material
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.46 0.40 0.28
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1
+illum 2
+
+newmtl glass_+_label
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd etiqueta_botella.png
+
+newmtl white_paper
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.59 0.5 0.37
+Ks 1 0.99 0.78
+Ni 1.000000
+d 1.000000
+illum 2

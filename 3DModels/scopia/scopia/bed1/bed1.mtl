@@ -1,0 +1,24 @@
+# Blender3D MTL File: bed1_sweethome3d.blend
+# Material Count: 2
+newmtl fusta_llit_rojiza.jpg.001
+Ns 37.254902
+Ka 0.000000 0.000000 0.000000
+Kd 0.782138 0.616779 0.418346
+Ks 0.266098 0.266098 0.266098
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd rojiza.jpg
+
+
+newmtl sobrecolchon_patron1.jpg.001
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.649339 0.649413 0.593899
+Ks 0.236860 0.236860 0.236860
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd patron1.jpg
+
+

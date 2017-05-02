@@ -1,0 +1,44 @@
+# Blender3D MTL File: children_bed_sweethome3d.blend
+# Material Count: 4
+newmtl cuishon_simple_lines.jpg
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.080931 0.080931 0.080931
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd simple_lines.jpg
+
+
+newmtl white_wood_wood_bump.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.260532 0.260532 0.260532
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl sabana_simple_lines.jpg
+Ns 19.607843
+Ka 0.000000 0.000000 0.000000
+Kd 0.738930 0.747222 0.800000
+Ks 0.290466 0.290466 0.290466
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd simple_lines.jpg
+
+
+newmtl white_wood
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.260532 0.260532 0.260532
+Ni 1.000000
+d 1.000000
+illum 2
+
+

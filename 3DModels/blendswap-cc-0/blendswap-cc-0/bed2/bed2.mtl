@@ -1,0 +1,51 @@
+# Blender MTL File: 'bed2.blend'
+# Material Count: 5
+
+newmtl couch
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.555969 0.588949 0.662492
+Ks 0.027027 0.027027 0.027027
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:/Documents and Settings/Jeremy.KIDSXP/Desktop/WoodFine0031_10_S.jpg
+
+newmtl matress
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.613997 0.511457
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:/Documents and Settings/Jeremy.KIDSXP/Desktop/WoodFine0031_10_S.jpg
+
+newmtl pillow
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.464792 0.533202 0.640000
+Ks 0.027027 0.027027 0.027027
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:/Documents and Settings/Jeremy.KIDSXP/Desktop/WoodFine0031_10_S.jpg
+
+newmtl sheet
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.616166 0.597904 0.724877
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:/Documents and Settings/jeremy/My Documents/My Pictures/textures/wood/WoodFine0003_M.jpg
+
+newmtl structure
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.310603 0.199290 0.044777
+Ks 0.101351 0.101351 0.101351
+Ni 1.000000
+d 1.000000
+illum 2

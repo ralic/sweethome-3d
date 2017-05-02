@@ -1,0 +1,22 @@
+# Blender3D MTL File: chair-ottoman.blend
+# Material Count: 2
+newmtl Chair_wood
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.659822 0.441785
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl Leather
+Ns 47.058824
+Ka 0.000000 0.000000 0.000000
+Kd 0.536000 0.272000 0.144000
+Ks 0.258993 0.258993 0.258993
+Ni 0.000000
+d 1.000000
+illum 2
+
+

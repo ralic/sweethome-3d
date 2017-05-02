@@ -1,0 +1,47 @@
+# doccia.mtl 3D model
+#
+# Created by LucaPresidente
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+
+newmtl Cylinder17_1
+illum 2
+Ka 0.451 0.451 0.451
+Kd 0.451 0.451 0.451
+Ks 0.35 0.35 0.35
+Ns 32.0
+
+newmtl Rectangle06_2
+illum 2
+Ka 0.8275 0.8275 0.8275
+Kd 1.0 1.0 1.0
+Ks 0.972 0.972 0.972
+Ns 10.0
+Ni 1.5
+
+newmtl Rectangle07_3
+illum 2
+Ka 0.7255 0.7255 0.7255
+Kd 0.7255 0.7255 0.7255
+Ks 1.125 1.125 1.125
+Ns 61.0
+Ni 1.5
+
+newmtl Box16_4
+illum 2
+Ka 0.7686 0.8784 0.9137
+Kd 0.7686 0.8784 0.9137
+Ks 1.197 1.197 1.197
+Ns 43.0
+Ni 1.5
+d 0.3
+
+newmtl Rectangle12_7
+illum 2
+Ka 0.8431 0.8431 0.8431
+Kd 0.8431 0.8431 0.8431
+Ks 0.35 0.35 0.35
+Ns 32.0

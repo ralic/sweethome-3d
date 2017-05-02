@@ -1,0 +1,302 @@
+<?xml version="1.0"?>
+<!-- build.xml
+
+     Sweet Home 3D JS, Copyright (c) 2016 Emmanuel PUYBARET / eTeks <info@eteks.com>. 
+     
+     Ant build file. Available targets :
+     - build         : Builds minified Javacript files in dist directory
+     - sourceArchive : Builds SweetHome3DJS-version-src.zip file
+     - jsdoc         : Builds SweetHome3DJS-version-jsdoc.zip file 
+-->
+<project basedir="." default="build" name="SweetHome3DJS">
+  <!-- The current version of Sweet Home 3D JS -->
+  <property name="version" value="2.0"/>
+
+  <target name="concat" depends="jsBundle"
+          description="Concat Javacript files in dist/build directory">
+    <mkdir dir="dist/build" />
+    <concat destfile="dist/build/viewmodel.min.js" encoding="UTF-8">
+      <filelist dir="src">
+        <file name="scene3d.js" />
+        <file name="HTMLCanvas3D.js" />
+        <file name="URLContent.js" />
+      	<file name="ModelLoader.js" />
+        <file name="OBJLoader.js" />
+        <file name="ModelManager.js" />
+        <file name="ModelPreviewComponent.js" />
+        <file name="viewModel.js" />
+      </filelist>
+    </concat>
+    <concat destfile="dist/build/viewhome.min.js" encoding="UTF-8">
+      <fileset dir="lib/generated" includes="SweetHome3D.js" />
+      <filelist dir="src">
+        <file name="DAELoader.js" />
+        <file name="Max3DSLoader.js" />
+        <file name="LengthUnit.js" />
+        <file name="UserPreferences.js" />
+        <file name="HomeRecorder.js" />
+        <file name="Object3DBranch.js" />
+        <file name="HomeComponent3D.js" />
+        <file name="HomePieceOfFurniture3D.js" />
+        <file name="Wall3D.js" />
+        <file name="Room3D.js" />
+        <file name="Ground3D.js" />
+        <file name="Label3D.js" />
+        <file name="TextureManager.js" />
+        <file name="HomeController3D.js" />
+        <file name="viewHome.js" />
+      </filelist>
+    </concat>
+  </target>
+
+  <target name="build" depends="concat" 
+          description="Builds minified Javacript files in dist directory">
+    <!-- Download and build YUI Compressor -->
+    <available file="tools/yuicompressor" type="dir" property="yuicompressor.present" />
+    <antcall target="install-yuicompressor" />
+    <!-- Find full name of YUI Compressor jar -->
+    <path id="yuicompressor.jar">
+      <first>
+        <fileset dir="tools/yuicompressor/build/" includes="yuicompressor*.jar" />
+      </first>
+    </path>
+    <property name="yuicompressor.jar" refid="yuicompressor.jar" />
+    <!-- Minify Javascript files -->
+    <java jar="${yuicompressor.jar}" fork="true">
+      <arg value="dist/build/viewmodel.min.js" />
+      <arg value="-o" />
+      <arg value="dist/build/viewmodel.min.js" />
+    </java>
+    <java jar="${yuicompressor.jar}" fork="true">
+      <arg value="dist/build/viewhome.min.js" />
+      <arg value="-o" />
+      <arg value="dist/build/viewhome.min.js" />
+    </java>
+    <java jar="${yuicompressor.jar}" fork="true">
+      <arg value="src/core.js" />
+      <arg value="-o" />
+      <arg value="dist/build/core.min.js" />
+    </java>
+    <java jar="${yuicompressor.jar}" fork="true">
+      <arg value="lib/generated/geom.js" />
+      <arg value="-o" />
+      <arg value="dist/build/geom.min.js" />
+    </java>
+    <java jar="${yuicompressor.jar}" fork="true">
+      <arg value="lib/generated/batik-svgpathparser.js" />
+      <arg value="-o" />
+      <arg value="dist/build/batik-svgpathparser.min.js" />
+    </java>  	
+    <java jar="${yuicompressor.jar}" fork="true">
+      <arg value="src/Triangulator.js" />
+      <arg value="-o" />
+      <arg value="dist/build/triangulator.min.js" />
+    </java>
+
+    <!-- Add headers to minified files -->
+    <concat destfile="dist/viewmodel.min.js" encoding="UTF-8">
+      <header file="src/viewModel.js" />
+      <filterchain>
+        <headfilter lines="19" />
+        <tokenfilter>
+          <replacestring from="viewModel.js" to="viewmodel.min.js  version ${version}" />
+        </tokenfilter>
+      </filterchain>
+      <file name="dist/build/viewmodel.min.js" />
+    </concat>
+    <concat destfile="dist/viewhome.min.js" encoding="UTF-8">
+      <header file="src/viewHome.js" />
+      <filterchain>
+        <headfilter lines="19" />
+        <tokenfilter>
+          <replacestring from="viewHome.js" to="viewhome.min.js  version ${version}" />
+        </tokenfilter>
+      </filterchain>
+      <file name="dist/build/viewhome.min.js" />
+    </concat>
+    <concat destfile="dist/core.min.js" encoding="UTF-8">
+      <header file="src/core.js" />
+      <filterchain>
+        <headfilter lines="24" />
+        <tokenfilter>
+          <replacestring from="core.js" to="core.min.js  version ${version}" />
+        </tokenfilter>
+      </filterchain>
+      <file name="dist/build/core.min.js" />
+    </concat>
+    <concat destfile="dist/geom.min.js" encoding="UTF-8">
+      <file name="lib/generated/geom.js" />
+      <filterchain>
+        <headfilter lines="1" skip="5" />
+      </filterchain>
+    </concat>
+    <concat destfile="dist/geom.min.js" encoding="UTF-8" append="true">
+      <file name="dist/build/geom.min.js" />
+    </concat>
+    <concat destfile="dist/batik-svgpathparser.min.js" encoding="UTF-8">
+      <file name="lib/generated/batik-svgpathparser.js" />
+      <filterchain>
+        <headfilter lines="1" skip="5" />
+      </filterchain>
+    </concat>
+    <concat destfile="dist/batik-svgpathparser.min.js" encoding="UTF-8" append="true">
+      <file name="dist/build/batik-svgpathparser.min.js" />
+    </concat>
+    <concat destfile="dist/triangulator.min.js" encoding="UTF-8">
+      <header file="src/Triangulator.js" />
+      <filterchain>
+        <headfilter lines="41" />
+        <tokenfilter>
+          <replacestring from="Triangulator.js" to="triangulator.min.js  version ${version}" />
+        </tokenfilter>
+      </filterchain>
+      <file name="dist/build/triangulator.min.js" />
+    </concat>
+    <copy file="lib/big.min.js" todir="dist" />
+    <copy file="lib/gl-matrix-min.js" todir="dist" />
+    <copy file="lib/jszip.min.js" todir="dist" />
+  	<copy file="lib/jsXmlSaxParser.min.js" todir="dist" />
+    <copy file="src/close.png" todir="dist" />
+    <copy file="src/navigationPanel.png" todir="dist" />
+
+    <!-- Clean build -->
+    <delete dir="dist/build" />
+
+    <echo message="Javascript files in dist ready for ftp" />
+  </target>
+
+  <!-- Downloads and builds YUI Compressor in tools/yuicompressor-master -->
+  <target name="install-yuicompressor" unless="yuicompressor.present">
+    <get src="https://github.com/yui/yuicompressor/archive/master.zip" dest="tools/yuicompressor.zip" />
+    <unzip src="tools/yuicompressor.zip" dest="tools" />
+    <delete file="tools/yuicompressor.zip" />
+    <move file="tools/yuicompressor-master" tofile="tools/yuicompressor" />
+    <ant dir="tools/yuicompressor" />
+  </target>
+
+  <!-- Builds SweetHome3DJS-version-src.zip archive that contains 
+       SweetHome3D source files in directory named SweetHome3D-version-src -->
+  <target name="sourceArchive"
+          description="Builds SweetHome3DJS-version-src.zip archive">
+    <mkdir dir="tools/source/SweetHome3DJS-${version}-src" />
+    <copy todir="tools/source/SweetHome3DJS-${version}-src">
+      <fileset dir=".">
+        <include name="build.xml" />
+        <include name="*.TXT" />
+        <include name="src/**" />
+        <include name="lib/**" />
+        <include name="test/**" />
+        <include name="tools/JSDocTemplate/**" />
+        <include name="tools/JSweet/**" />
+        <!-- Eclipse project files -->
+        <include name=".settings/**" />
+        <include name=".classpath" />
+        <include name=".project" />
+        <!-- Exclude generated libs --> 
+        <exclude name="lib/generated/**" />
+      </fileset>
+    </copy>
+
+    <zip destfile="SweetHome3DJS-${version}-src.zip" basedir="tools/source"
+         includes="SweetHome3DJS-${version}-src/**" />
+
+    <!-- Clean source directory -->
+    <delete dir="tools/source" />
+
+    <echo message="SweetHome3DJS-${version}-src.zip ready for ftp" />
+  </target>
+
+  <!-- Builds dist/SweetHome3DJS-version-jsdoc.zip archive that contains 
+     the generated JSDoc of Javascript source files found in SweetHome3D-version-src -->
+  <target name="jsdoc" depends="jsBundle"
+          description="Builds dist/SweetHome3DJS-version-jsdoc.zip archive">
+    <!-- Download and build JSDoc Toolkit Ant task -->
+    <available file="tools/jsdoc-toolkit-ant-task" type="dir" property="jsdoc-toolkit-ant-task.present" />
+    <antcall target="install-jsdoc-toolkit-ant-task" />
+    <!-- Generate JSDoc -->
+    <mkdir dir="tools/jsdoc/SweetHome3DJS-${version}-jsdoc" />
+    <taskdef name="jsdoctoolkit" classname="uk.co.darrenhurley.ant.tasks.JsDocToolkit" 
+           classpath="tools/jsdoc-toolkit-ant-task/build/jar/jsdoc-toolkit-ant-task-1.2.jar;tools/jsdoc-toolkit-ant-task/lib/rhino/js-1.7r2.jar"/>
+    <jsdoctoolkit jsdochome="tools/jsdoc-toolkit-ant-task/lib/jsdoc-toolkit/jsdoc_toolkit-2.4.0/" template="../../../../../JSDocTemplate" outputdir="tools/jsdoc/SweetHome3DJS-${version}-jsdoc">
+      <fileset dir="src" includes="*.js" excludes="scene3d.js, HTMLCanvas3D.js, Triangulator.js" />
+      <fileset dir="lib/generated" includes="SweetHome3D.js" />
+    </jsdoctoolkit>
+    <zip destfile="SweetHome3DJS-${version}-jsdoc.zip" basedir="tools/jsdoc" includes="SweetHome3DJS-${version}-jsdoc/**" />
+    <!-- Clean jsdoc directory -->
+    <delete dir="tools/jsdoc" />
+
+    <echo message="SweetHome3DJS-${version}-jsdoc.zip ready for ftp" />
+  </target>
+
+  <!-- Downloads and builds JSDoc Toolkit Ant task in tools/jsdoc-toolkit-ant-task -->
+  <target name="install-jsdoc-toolkit-ant-task" unless="jsdoc-toolkit-ant-task.present">
+    <get src="https://github.com/ironsidevsquincy/jsdoc-toolkit-ant-task/archive/master.zip" dest="tools/jsdoc-toolkit-ant-task.zip" />
+    <unzip src="tools/jsdoc-toolkit-ant-task.zip" dest="tools" />
+    <delete file="tools/jsdoc-toolkit-ant-task.zip" />
+    <move file="tools/jsdoc-toolkit-ant-task-master" tofile="tools/jsdoc-toolkit-ant-task" />
+    <ant dir="tools/jsdoc-toolkit-ant-task" target="package" />
+  </target>
+
+  <!-- JSweet Java to JS generation -->
+  <target name="SweetHome3DJSweetExtension"
+          description="Builds build/SweetHome3DJSweetExtension.jar">
+    <mkdir dir="build/SweetHome3DJSweetExtension"/>
+    <javac srcdir="tools/JSweet/src" 
+      destdir="build/SweetHome3DJSweetExtension" 
+      classpath="tools/JSweet/lib/jsweet-transpiler-2.0.0-SNAPSHOT-jar-with-dependencies.jar" 
+      source="1.8" 
+      encoding="ISO-8859-1"
+      includes="com/eteks/**" />
+
+    <jar destfile="build/SweetHome3DJSweetExtension.jar">
+      <fileset dir="build/SweetHome3DJSweetExtension" />
+    </jar>
+  </target>
+
+  <target name="jsBundle" depends="SweetHome3DJSweetExtension"
+          description="Builds dist/generated/SweetHome3D.js">
+    <mkdir dir="build/jsBundle/ts" />
+    <mkdir dir="build/jsBundle/js" />
+    <java classname="org.jsweet.JSweetCommandLineLauncher" fork="true" failonerror="true">
+      <arg value="-v" />
+      <arg value="-b" />
+      <arg value="--workingDir" />
+      <arg value="build/jsweet.tmp" />
+      <arg value="--factoryClassName" />
+      <arg value="com.eteks.sweethome3d.SweetHome3DJSweetFactory" />
+      <arg value="--header"/>
+      <arg value="tools/JSweet/header.txt" />
+      <!-- ts output dir -->
+      <arg value="--tsout" />
+      <arg value="build/jsBundle/ts" />
+      <!-- js output dir -->
+      <arg value="-o" />
+      <arg value="build/jsBundle/js" />
+      <!-- input dir -->
+      <arg value="--jdkHome" />
+      <arg value="${java.home}" />
+      <arg value="--encoding" />
+      <arg value="ISO-8859-1" />
+      <arg value="--candiesJsOut"/>
+      <arg value="build/jsBundle/js" />
+      <arg value="-i" />
+      <arg value="../SweetHome3D/src:tools/JSweet/src" />
+      <arg value="--includes" />
+      <arg value="com/eteks/sweethome3d/model:def:com/eteks/sweethome3d/io:com/eteks/sweethome3d/tools:com/eteks/sweethome3d/viewcontroller:com/eteks/sweethome3d/j3d" />
+      <sysproperty key="java.ext.dirs" value="../SweetHome3D/lib"/>
+      <classpath>
+        <fileset dir="tools/JSweet/lib" />
+        <pathelement location="build/SweetHome3DJSweetExtension.jar"/>
+        <pathelement location="../SweetHome3D/libtest/jnlp.jar"/>
+        <pathelement location="../SweetHome3D/libtest/AppleJavaExtensions.jar"/>
+      </classpath>
+    </java>
+    
+    <mkdir dir="lib/generated" />
+    <move file="build/jsBundle/js/bundle.js" tofile="lib/generated/SweetHome3D.js"/>
+    <move file="build/jsBundle/js/j4ts-awtgeom-0.0.0-SNAPSHOT/bundle.js" tofile="lib/generated/geom.js"/>
+    <move file="build/jsBundle/js/j4ts-batik-svgpathparser-0.0.0-SNAPSHOT/bundle.js" tofile="lib/generated/batik-svgpathparser.js"/>
+    <!-- Clean build -->
+    <delete dir="build" />
+  </target>
+</project>

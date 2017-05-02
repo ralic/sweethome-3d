@@ -1,0 +1,23 @@
+# Blender3D MTL File: tubular_chair.blend
+# Material Count: 2
+newmtl black_cuir_cuir.jpg
+Ns 21.568627
+Ka 0.000000 0.000000 0.000000
+Kd 0.040102 0.040102 0.040102
+Ks 1.242640 1.242640 1.242640
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd cuir.jpg
+
+
+newmtl metal
+Ns 423.529412
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.929489 1.929489 1.929489
+Ni 1.000000
+d 1.000000
+illum 2
+
+

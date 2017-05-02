@@ -1,0 +1,12 @@
+# Blender3D MTL File: cappa.blend
+# Material Count: 1
+newmtl INOXs.002
+Ns 66.666667
+Ka 0.000000 0.000000 0.000000
+Kd 0.643401 0.643401 0.643401
+Ks 1.107645 1.107645 1.107645
+Ni 1.000000
+d 1.000000
+illum 2
+
+

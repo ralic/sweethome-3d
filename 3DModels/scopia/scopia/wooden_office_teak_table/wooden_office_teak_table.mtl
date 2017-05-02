@@ -1,0 +1,33 @@
+# Blender3D MTL File: wooden_office_tables.blend
+# Material Count: 3
+newmtl black_plastic
+Ns 50.980392
+Ka 0.000000 0.000000 0.000000
+Kd 0.090850 0.090850 0.090850
+Ks 0.370266 0.370266 0.370266
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl grey_metal
+Ns 50.980392
+Ka 0.000000 0.000000 0.000000
+Kd 0.533333 0.533333 0.533333
+Ks 0.849202 0.849202 0.849202
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl teak_wood_teak_tile.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.385415 0.263908 0.082587
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd teak_tile.jpg
+
+

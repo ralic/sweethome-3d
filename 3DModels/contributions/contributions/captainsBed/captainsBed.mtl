@@ -1,0 +1,35 @@
+# captainsBed.mtl Produced by Art of Illusion 2.4.1, Fri Nov 20 08:15:56 CET 2009
+#
+# Created by Pencilart
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+newmtl Painted_Wood
+Kd 0.855 0.82935 0.82935
+Ks 0.6 0.6 0.6
+Ka 0 0 0
+illum 2
+Ns 90
+newmtl whitewood
+Kd 0.95 0.912 0.912
+Ks 0 0 0
+Ka 0 0 0
+illum 1
+newmtl blanket
+Kd 1 0.9232 0.52
+Ks 0 0 0
+Ka 0 0 0
+illum 1
+newmtl mattressblue
+Kd 0.75 0.85 1
+Ks 0 0 0
+Ka 0 0 0
+illum 1
+newmtl Brushed_and_chromed
+Kd 0.30544 0.32403 0.332
+Ks 0.6 0.6 0.6
+Ka 0 0 0
+illum 2
+Ns 90

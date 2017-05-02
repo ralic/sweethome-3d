@@ -1,0 +1,23 @@
+# Blender3D MTL File: table_and_chairs2.blend
+# Material Count: 2
+newmtl fusta_taula
+Ns 52.941176
+Ka 0.000000 0.000000 0.000000
+Kd 0.111700 0.111700 0.111700
+Ks 0.264438 0.264438 0.264438
+Ni 1.200000
+d 1.000000
+illum 2
+map_Kd wood_bump.jpg
+
+
+newmtl coixi_cadira
+Ns 82.352941
+Ka 0.000000 0.000000 0.000000
+Kd 0.789571 0.719253 0.516258
+Ks 0.002000 0.002000 0.002000
+Ni 1.000000
+d 1.000000
+illum 2
+
+

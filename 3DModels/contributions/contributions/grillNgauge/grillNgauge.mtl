@@ -1,0 +1,37 @@
+# grillNgauge.mtl Produced by Art of Illusion 2.7.1, Sun Jun 13 22:36:56 EDT 2010
+#
+# Created by Pencilart
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+newmtl Default_Texture
+Kd 1 1 1
+Ks 0 0 0
+Ka 0 0 0
+illum 1
+newmtl shinyblack
+Kd 0.0672 0.0672 0.0672
+Ks 0.89 0.89 0.89
+Ka 0 0 0
+illum 2
+Ns 103
+newmtl mattblack
+Kd 0 0 0
+Ks 0.4 0.4 0.4
+Ka 0 0 0
+illum 2
+Ns 1
+newmtl brushedmetal
+Kd 1 1 1
+map_Kd grillNgauge1.jpg
+Ks 0 0 0
+Ka 0.07 0.07 0.07
+illum 1
+newmtl gauge
+Kd 1 1 1
+map_Kd grillNgauge2.jpg
+Ks 0 0 0
+Ka 0 0 0
+illum 1

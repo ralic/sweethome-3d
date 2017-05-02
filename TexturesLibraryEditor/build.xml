@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<!-- build.xml
+
+     Textures Library Editor, Copyright (c) 2012-2015 Emmanuel PUYBARET / eTeks <info@eteks.com>
+     
+     Ant build file. Available targets :
+     - texturesLibraryEditor              : Builds TexturesLibraryEditor.jar file in build directory
+     - texturesLibraryEditorJarExecutable : Builds TexturesLibraryEditor-version.jar file 
+     - sourceArchive                      : Builds TexturesLibraryEditor-version-src.zip file
+-->
+<project basedir="." default="texturesLibraryEditorJarExecutable" name="TexturesLibraryEditor">
+  <!-- The current version of the Textures Library Editor -->
+  <property name="version" value="1.5"/>
+
+  <target name="texturesLibraryEditor" 
+          description="Builds build/TexturesLibraryEditor.jar with all its classes">
+    <!-- Compile Sweet Home 3D -->
+    <mkdir dir="build/classes"/>
+    <javac srcdir="../SweetHome3D/src" destdir="build/classes"
+           encoding="ISO-8859-1" target="1.5">
+      <!-- Use lib as an extension directory to override default Java 3D libraries -->
+      <extdirs>
+        <pathelement location="../SweetHome3D/lib"/>
+      </extdirs>
+      <classpath>
+        <pathelement location="../SweetHome3D/libtest/AppleJavaExtensions.jar"/>
+        <pathelement location="../SweetHome3D/libtest/jnlp.jar"/>
+      </classpath>
+    </javac>
+    <!-- Compile Textures Library Editor -->
+    <javac srcdir="src" destdir="build/classes"
+           encoding="ISO-8859-1" target="1.5">
+      <classpath>
+        <pathelement location="build/classes"/>
+        <pathelement location="../SweetHome3D/libtest/AppleJavaExtensions.jar"/>
+      </classpath>
+    </javac>
+    
+    <!-- Copy resources files of supported languages -->
+    <copy todir="build/classes">
+      <fileset dir="src">
+        <exclude name="**/*.java"/>
+        <exclude name="**/package.html"/> 
+      </fileset>
+    </copy>
+    <copy todir="build/classes">
+      <fileset dir="../SweetHome3D/src">
+        <include name="**"/>
+        <exclude name="**/*.java"/>
+        <exclude name="**/package.html"/> 
+        <exclude name="**/*_*.properties"/>
+        <exclude name="com/eteks/sweethome3d/io/DefaultFurniture*.*"/>
+        <exclude name="com/eteks/sweethome3d/io/Contributed*.*"/>
+        <exclude name="com/eteks/sweethome3d/io/DefaultTextures*.*"/>
+        <exclude name="com/eteks/sweethome3d/io/resources/**"/>
+        <exclude name="com/eteks/sweethome3d/swing/resources/icons/jfc/*.*"/>
+        <exclude name="**/help/**"/>
+      </fileset>
+    </copy>
+    <copy todir="build/classes">
+      <fileset dir="../SweetHome3D/src">
+        <include name="**/*_fr.properties"/>
+        <include name="com/eteks/sweethome3d/io/resources/patterns/**"/>
+        <exclude name="com/eteks/sweethome3d/io/DefaultFurniture*.*"/>
+        <exclude name="com/eteks/sweethome3d/io/Contributed*.*"/>
+        <exclude name="com/eteks/sweethome3d/io/DefaultTextures*.*"/>
+      </fileset>
+    </copy>
+    
+    <!-- Create TexturesLibraryEditor.jar with only required parts of Sweet Home 3D -->
+    <zip destfile="build/TexturesLibraryEditor.jar">
+      <fileset dir="build/classes">
+        <exclude name="com/eteks/sweethome3d/*.*"/>
+        <exclude name="com/eteks/sweethome3d/resources/**"/>
+        <exclude name="com/eteks/sweethome3d/applet/**"/>
+        <exclude name="com/eteks/sweethome3d/io/AutoRecovery**"/>
+        <exclude name="com/eteks/sweethome3d/plugin/**"/>
+        <exclude name="com/eteks/sweethome3d/swing/Furniture*"/>
+        <exclude name="com/eteks/sweethome3d/swing/Home*"/>
+        <exclude name="com/eteks/sweethome3d/swing/Import*"/>
+        <exclude name="com/eteks/sweethome3d/swing/BackgroundImageWizard*"/>
+        <exclude name="com/eteks/sweethome3d/swing/Compass*"/>
+        <exclude name="com/eteks/sweethome3d/swing/Plan*"/>
+        <exclude name="com/eteks/sweethome3d/swing/MultipleLevelsPlan*"/>
+        <exclude name="com/eteks/sweethome3d/swing/Label*"/>
+        <exclude name="com/eteks/sweethome3d/swing/Level*"/>
+        <exclude name="com/eteks/sweethome3d/swing/Room*"/>
+        <exclude name="com/eteks/sweethome3d/swing/Wall*"/>
+        <exclude name="com/eteks/sweethome3d/swing/ObserverCamera*"/>
+        <exclude name="com/eteks/sweethome3d/swing/PageSetup*"/>
+        <exclude name="com/eteks/sweethome3d/swing/PrintPreview*"/>
+        <exclude name="com/eteks/sweethome3d/swing/Photo*"/>
+        <exclude name="com/eteks/sweethome3d/swing/*Video*"/>
+        <exclude name="com/eteks/sweethome3d/swing/resources/**"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/Furniture*Controller*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/Home*Controller*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/Import*Controller*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/BackgroundImageWizardController*"/>
+        <exclude name="com/eteks/sweethome3d/iewcontroller/Compass*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/PlanController*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/Label*Controller*"/>
+        <exclude name="com/eteks/sweethome3d/iewcontroller/ObserverCamera*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/Room*Controller*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/Wall*Controller*"/>
+        <exclude name="com/eteks/sweethome3d/iewcontroller/ObserverCamera*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/PageSetup*Controller*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/PrintPreview*Controller*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/Photo*Controller*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/Video*Controller*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/resources/*Wizard*"/>
+        <exclude name="com/eteks/sweethome3d/j3d/**"/>
+        <exclude name="com/eteks/sweethome3d/swing/ModelPreview*"/>
+      </fileset>
+      <fileset dir="build/classes">
+        <include name="com/eteks/sweethome3d/swing/resources/icons/tango/image-*.png"/>
+      </fileset>
+    </zip>
+    <delete dir="build/classes"/>
+  </target>
+
+  <target name="texturesLibraryEditorJarExecutable" depends="texturesLibraryEditor"
+          description="Builds TexturesLibraryEditor-version.jar executable Jar">
+    <!-- Create TexturesLibraryEditor-version.jar containing Textures Library Editor classes and resources,
+         and other DLLs and jars -->
+    <jar destfile="TexturesLibraryEditor-${version}.jar">
+      <manifest>
+        <attribute name="Main-Class" value="com.eteks.textureslibraryeditor.TexturesLibraryEditorBootstrap"/>
+      </manifest>
+      <zipfileset src="build/TexturesLibraryEditor.jar"/>
+      <fileset dir="../SweetHome3D/libtest">
+        <include name="jnlp.jar"/>
+      </fileset>
+      <fileset dir="../SweetHome3D">
+        <include name="LICENSE.TXT"/>
+        <include name="COPYING.TXT"/>
+        <include name="THIRDPARTY-LICENSE-TANGO.TXT"/>
+      </fileset>
+    </jar>
+ 
+    <!-- Clean build directory -->
+    <delete dir="build"/>
+
+    <echo message="TexturesLibraryEditor-${version}.jar ready for ftp"/>
+  </target>
+
+  <!-- Builds TexturesLibraryEditor-version-src.zip archive that contains 
+       TexturesLibraryEditor source files in directory named TexturesLibraryEditor-version-src -->
+  <target name="sourceArchive"
+          description="Builds TexturesLibraryEditor-version-src.zip archive">
+    <mkdir dir="build/source/TexturesLibraryEditor-${version}-src"/>
+    <copy todir="build/source/TexturesLibraryEditor-${version}-src">
+      <fileset dir=".">
+        <include name="build.xml"/>
+        <include name="*.TXT"/>
+        <include name="src/**"/>
+        <!-- Eclipse project files -->
+        <include name=".settings/**"/>
+        <include name=".classpath"/>
+        <include name=".project"/>
+      </fileset>
+    </copy>
+
+    <zip destfile="TexturesLibraryEditor-${version}-src.zip" basedir="build/source"
+         includes="TexturesLibraryEditor-${version}-src/**" />
+
+    <!-- Clean build directory -->
+    <delete dir="build"/>
+
+    <echo message="TexturesLibraryEditor-${version}-src.zip ready for ftp"/>
+  </target>
+</project>

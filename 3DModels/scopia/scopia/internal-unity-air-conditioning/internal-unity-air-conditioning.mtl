@@ -1,0 +1,12 @@
+# Blender MTL File: 'internal-unity-air-conditioning-baked.blend'
+# Material Count: 1
+
+newmtl beige-baked
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.997028 0.920902
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd internal-air-conditioning-baked2.png

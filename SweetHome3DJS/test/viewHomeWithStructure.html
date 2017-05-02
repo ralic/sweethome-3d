@@ -1,0 +1,138 @@
+<!--
+   viewHomeWithStructure.html  
+   
+   Sweet Home 3D, Copyright (c) 2016 Emmanuel PUYBARET / eTeks <info@eteks.com>
+   
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+ 
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program; if not, write to the Free Software
+   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>View home with Sweet Home 3D HTML5 Viewer</title>
+<base href="..">
+<script type="text/javascript" src="lib/big.min.js"></script>
+<script type="text/javascript" src="lib/gl-matrix-min.js"></script>
+<script type="text/javascript" src="lib/jszip.min.js"></script>
+<script type="text/javascript" src="lib/jsXmlSaxParser.min.js"></script>
+
+<script type="text/javascript" src="src/core.js"></script>
+<script type="text/javascript" src="src/URLContent.js"></script>
+<script type="text/javascript" src="src/scene3d.js"></script>
+<script type="text/javascript" src="src/HTMLCanvas3D.js"></script>
+<script type="text/javascript" src="src/ModelManager.js"></script>
+<script type="text/javascript" src="src/ModelLoader.js"></script>
+<script type="text/javascript" src="src/OBJLoader.js"></script>
+<script type="text/javascript" src="src/Max3DSLoader.js"></script>
+<script type="text/javascript" src="src/DAELoader.js"></script>
+<script type="text/javascript" src="src/Triangulator.js"></script>
+
+<script type="text/javascript" src="lib/jsXmlSaxParser.min.js"></script>
+<script type="text/javascript" src="lib/generated/geom.js"></script>
+<script type="text/javascript" src="lib/generated/SweetHome3D.js"></script>
+<script type="text/javascript" src="src/HomeRecorder.js"></script>
+<script type="text/javascript" src="src/HomeComponent3D.js"></script>
+<script type="text/javascript" src="src/Object3DBranch.js"></script>
+<script type="text/javascript" src="src/HomePieceOfFurniture3D.js"></script>
+<script type="text/javascript" src="src/Room3D.js"></script>
+<script type="text/javascript" src="src/Wall3D.js"></script>
+<script type="text/javascript" src="src/Ground3D.js"></script>
+<script type="text/javascript" src="src/Label3D.js"></script>
+<script type="text/javascript" src="src/TextureManager.js"></script>
+<script type="text/javascript" src="src/UserPreferences.js"></script>
+<script type="text/javascript" src="src/LengthUnit.js"></script>
+<script type="text/javascript" src="src/viewHome.js"></script>
+
+<style type="text/css">
+/* The class of components handled by the viewer */
+.viewerComponent  {
+  font-weight: bold;
+}
+</style>
+</head>
+
+<body>
+<div>
+  <canvas id="viewerCanvas" class="viewerComponent" width="800" height="600"
+          style="background-color: #CCCCCC; border: 1px solid gray; outline:none; touch-action: none" tabIndex="1"></canvas>
+  <div id="viewerProgressDiv" style="width: 400px; position: relative; top: -350px; left: 200px; background-color: rgba(128, 128, 128, 0.7); padding: 20px; border-radius: 25px">
+    <progress id="viewerProgress"  class="viewerComponent" value="0" max="200" style="width: 400px"></progress>
+    <label id="viewerProgressLabel" class="viewerComponent" style="margin-top: 2px; display: block; margin-left: 10px"></label>
+  </div>
+  <div style="margin-top: -60px">
+    <input  id="aerialView"   class="viewerComponent" name="cameraType" type="radio" style="visibility: hidden;"/>
+      <label class="viewerComponent" for="aerialView" style="visibility: hidden;">Aerial view</label>
+    <input  id="virtualVisit" class="viewerComponent" name="cameraType" type="radio" style="visibility: hidden;"/>
+      <label class="viewerComponent" for="virtualVisit" style="visibility: hidden;">Virtual visit</label>
+    <select id="levelsAndCameras" class="viewerComponent" style="visibility: hidden;"></select>
+    <button id="changeColorButton" style="visibility: hidden;"
+            onclick="var furniture = homeComponent.getHome().getFurniture(); furniture [Math.floor(Math.random() * furniture.length)].setColor(Math.floor(0xFFFFFF * Math.random()));">Set randomly color of a piece</button>
+    <label id="info"></label>
+  </div>
+</div>
+
+<script type="text/javascript">
+  var homeUrl = "test/resources/SweetHome3DExample3.zip";
+  var onerror = function(err) {
+      if (err == "No WebGL") {
+        alert("Sorry, your browser doesn't support WebGL.");
+      } else {
+        console.log(err.stack);
+        alert("Error: " + (err.message  ? err.constructor.name + " " +  err.message  : err));
+      }
+    };
+  var onprogression = function(part, info, percentage) {
+      var progress = document.getElementById("viewerProgress"); 
+      if (part === HomeRecorder.READING_HOME) {
+        // Home loading is finished 
+        progress.value = percentage * 100;
+        info = info.substring(info.lastIndexOf('/') + 1);
+      } else if (part === Node3D.READING_MODEL) {
+        // Models loading is finished 
+        progress.value = 100 + percentage * 100;
+        if (percentage === 1) {
+          document.getElementById("viewerProgressDiv").style.visibility = "hidden";
+          // Start animation once all models are loaded
+          homeComponent.startRotationAnimation(2);
+          document.getElementById("info").innerHTML = "Home <i>" + homeComponent.getHome().getName() + "</i> with " + homeComponent.getHome().getFurniture().length + " pieces"; 
+          document.getElementById("changeColorButton").style.visibility = "visible";
+        }
+      }
+    
+      document.getElementById("viewerProgressLabel").innerHTML = 
+          (percentage ? Math.floor(percentage * 100) + "% " : "") + part + " " + info;
+    };
+   
+  // Display home in canvas 3D
+  // Mouse and keyboard navigation explained at 
+  // http://sweethome3d.cvs.sf.net/viewvc/sweethome3d/SweetHome3D/src/com/eteks/sweethome3d/viewcontroller/resources/help/en/editing3DView.html
+  // You may also switch between aerial view and virtual visit with the space bar
+  // For browser compatibility, see http://caniuse.com/webgl
+  var homeComponent =
+      viewHome("viewerCanvas",    // Id of the canvas
+          homeUrl,           // URL or relative URL of the home to display 
+          onerror,           // Callback called in case of error
+          onprogression,     // Callback called while loading 
+         {roundsPerMinute: 0,                    // Rotation speed of the animation launched once home is loaded in rounds per minute, no animation if missing or equal to 0 
+          navigationPanel: "default",            // Displayed navigation arrows, "none" or "default" for default one or an HTML string containing elements with data-simulated-key 
+                                                 // attribute set "UP", "DOWN", "LEFT", "RIGHT"... to replace the default navigation panel, "none" if missing 
+          aerialViewButtonId: "aerialView",      // Id of the aerial view radio button, radio buttons hidden if missing  
+          virtualVisitButtonId: "virtualVisit",  // Id of the aerial view radio button, radio buttons hidden if missing  
+          levelsAndCamerasListId: "levelsAndCameras"   // Id of the levels select component, hidden if missing or no levels
+      /*, selectableLevels: ["Level 0", "Level 1"] */  // List of displayed levels, all viewable levels if missing
+         });  
+</script>
+
+</body>
+</html>

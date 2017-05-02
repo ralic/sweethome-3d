@@ -1,0 +1,36 @@
+# ceilingFan.mtl
+#
+# Copyrights (C) 2010  Peter Smolik
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+
+newmtl CeilingFan_1_1
+illum 2
+Ka 0.380392 0.25098 0.156863
+Kd 0.65098 0.482353 0.25098
+Ks 1.0 1.0 1.0
+Ns 128.0
+
+newmtl CeilingFan5028_2_2
+illum 2
+Ka 0.2 0.0941177 0.0666667
+Kd 0.0 0.0 0.0
+Ks 0.576471 0.568627 0.490196
+Ns 73.4362
+
+newmtl CeilingFan6820_3_3
+illum 2
+Ka 0.262745 0.172549 0.0627451
+Kd 0.345098 0.223529 0.0784314
+Ks 0.737255 0.623529 0.454902
+Ns 2.43318
+
+newmtl CeilingFan6900_4_4
+illum 2
+Ka 1.0 0.964706 0.815686
+Kd 1.0 0.964706 0.815686
+Ks 1.0 1.0 1.0
+Ns 128.0

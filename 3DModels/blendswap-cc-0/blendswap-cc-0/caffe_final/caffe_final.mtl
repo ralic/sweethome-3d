@@ -1,0 +1,20 @@
+# Blender MTL File: 'Caffe_Final.blend'
+# Material Count: 2
+
+newmtl Ceramique
+Ns 80
+Ka 0.000000 0.000000 0.000000
+Kd 0.9 0.9 0.9
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Coffee
+Ns 10
+Ka 0.000000 0.000000 0.000000
+Kd 0.13 0.07 0
+Ks 0.3 0.3 0.3
+Ni 1.000000
+d 1.000000
+illum 2

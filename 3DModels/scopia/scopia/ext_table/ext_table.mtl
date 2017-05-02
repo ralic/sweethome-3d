@@ -1,0 +1,13 @@
+# Blender3D MTL File: ext_chairs_and_table_sweethome3d.blend
+# Material Count: 1
+newmtl tipical.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.676069 0.557764 0.247251
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd tipical.jpg
+
+

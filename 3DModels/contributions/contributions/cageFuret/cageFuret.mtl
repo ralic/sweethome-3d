@@ -1,0 +1,29 @@
+# cageFuret.mtl 3D model
+#
+# Created by Gael Bettinelli
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+
+newmtl bleu
+illum 2
+Ka 0.0 0.0 0.0
+Kd 0.0 0.054 0.54
+Ks 0.2 0.2 0.2
+Ns 103.0
+
+newmtl creme
+illum 2
+Ka 0.0 0.0 0.0
+Kd 0.98 0.96922 0.931
+Ks 0.09 0.09 0.09
+Ns 103.0
+
+newmtl bleuvif
+illum 1
+Ka 0.0 0.0 0.0
+Kd 0.4365 0.80995 0.97
+Ks 0.0 0.0 0.0
+Ns 1.0

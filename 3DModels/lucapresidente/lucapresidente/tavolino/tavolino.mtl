@@ -1,0 +1,31 @@
+# tavolino.mtl 3D model
+#
+# Created by LucaPresidente
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+
+newmtl Box42_1
+illum 2
+Ka 0.251 0.251 0.251
+Kd 0.251 0.251 0.251
+Ks 0.0 0.0 0.0
+Ns 10.0
+Ni 1.5
+
+newmtl Box43_2
+illum 2
+Ka 0.3882 0.0 0.0
+Kd 0.7294 0.0 0.0
+Ks 0.783 0.783 0.783
+Ns 25.0
+Ni 1.5
+
+newmtl ChamferBox06_3
+illum 2
+Ka 0.3098 0.3098 0.3098
+Kd 0.3098 0.3098 0.3098
+Ks 0.35 0.35 0.35
+Ns 32.0

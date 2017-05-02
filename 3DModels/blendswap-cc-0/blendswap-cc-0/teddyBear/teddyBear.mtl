@@ -1,0 +1,21 @@
+# Blender MTL File: 'manitislate_burlap_bear_019.blend'
+# Material Count: 2
+
+newmtl teddy
+Ns 372.549020
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.063826 0.063826 0.063826
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd teddy.jpg
+
+newmtl eyes
+Ns 503.921569
+Ka 0.000000 0.000000 0.000000
+Kd 0.151152 0.148589 0.148589
+Ks 0.530384 0.545314 0.617703
+Ni 1.000000
+d 1.000000
+illum 2

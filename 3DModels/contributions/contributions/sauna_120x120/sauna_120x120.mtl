@@ -1,0 +1,80 @@
+# sauna_120x120.mtl
+#
+# Created by Ola-Kristian HOFF
+# http://sourceforge.net/p/sweethome3d/d-models/370/
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+
+newmtl Frame_door
+illum 1
+Ka 0.2 0.2 0.2
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ns 1.0
+map_Kd vertical.jpg
+
+newmtl Sauna
+illum 1
+Ka 0.2 0.2 0.2
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ns 1.0
+map_Kd vertical.jpg
+
+newmtl Frame_hori
+illum 1
+Ka 0.2 0.2 0.2
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ns 1.0
+map_Kd horizontal.jpg
+
+newmtl Floor
+illum 1
+Ka 0.2 0.2 0.2
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ns 1.0
+map_Kd horizontal.jpg
+
+newmtl Top
+illum 1
+Ka 0.2 0.2 0.2
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ns 1.0
+map_Kd horizontal.jpg
+
+newmtl Heater
+illum 2
+Ka 0.2 0.2 0.2
+Kd 0.7529412 0.7529412 0.7529412
+Ks 0.5078125 0.5078125 0.5078125
+Ns 65.0
+
+newmtl Heater_top
+illum 1
+Ka 0.2 0.2 0.2
+Kd 0.3176471 0.3176471 0.3176471
+Ks 0.0 0.0 0.0
+Ns 1.0
+
+newmtl Door
+illum 3
+Ka 0.2 0.2 0.2
+Kd 0.3764706 0.4196078 0.4078431
+Ks 0.7421875 0.7421875 0.7421875
+Ns 95.0
+Ni 1.0
+d 0.3803922
+
+newmtl Bench
+illum 1
+Ka 0.2 0.2 0.2
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ns 1.0
+map_Kd horizontal.jpg

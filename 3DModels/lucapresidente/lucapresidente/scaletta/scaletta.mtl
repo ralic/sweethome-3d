@@ -1,0 +1,16 @@
+# scaletta.mtl 3D model
+#
+# Created by LucaPresidente
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+
+newmtl Line43_1
+illum 2
+Ka 0.588 0.588 0.588
+Kd 0.588 0.588 0.588
+Ks 0.819 0.819 0.819
+Ns 34.0
+Ni 1.5

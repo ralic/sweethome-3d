@@ -1,0 +1,22 @@
+# Blender3D MTL File: white_kitchen_table_sweethome3d.blend
+# Material Count: 2
+newmtl white.003
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.152737 0.152737 0.152737
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl lacquered_steel.004
+Ns 66.666667
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.413184 0.413184 0.413184
+Ni 1.000000
+d 1.000000
+illum 2
+
+

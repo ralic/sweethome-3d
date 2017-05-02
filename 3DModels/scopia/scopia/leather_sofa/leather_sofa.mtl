@@ -1,0 +1,33 @@
+# Blender3D MTL File: Leather_sofa_sweethome3d.blend
+# Material Count: 3
+newmtl tacks
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.370196 0.379608 0.059608
+Ks 1.188404 1.188404 1.188404
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl dark_leather
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.211765 0.168627 0.125490
+Ks 0.080000 0.080000 0.080000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl wooden_leg_wood_for_legs.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.385882 0.203922 0.050196
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd wood_for_legs.jpg
+
+

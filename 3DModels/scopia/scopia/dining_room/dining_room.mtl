@@ -1,0 +1,33 @@
+# Blender3D MTL File: dining_room_sweethome3d.blend
+# Material Count: 3
+newmtl white_wood_butcherblock_tile
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.785648 0.788142 0.800000
+Ks 0.090000 0.090000 0.090000
+Ni 1.150000
+d 1.000000
+illum 2
+map_Kd butcherblock_tileable.jpg
+
+
+newmtl Cr.nk
+Ns 229.411765
+Ka 0.000000 0.000000 0.000000
+Kd 0.127571 0.126392 0.126392
+Ks 0.916826 0.916826 0.916826
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl glass.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.500000
+d 0.001000
+illum 2
+
+

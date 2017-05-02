@@ -1,0 +1,57 @@
+# frame3VerticalTowerPhotos.obj Produced with Blender
+#
+# Created by Emmanuel Puybaret / eTeks for Sweet Home 3D
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+#
+# Material Count: 5
+
+newmtl Frame
+Ns 20
+Ka 0.000000 0.000000 0.000000
+Kd 0.2 0.2 0.2
+Ks 0.3 0.3 0.3
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl InnerFrame
+Ns 1
+Ka 0.000000 0.000000 0.000000
+Kd 0.83 0.83 0.76
+Ks 0 0 0
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Photo1
+Ns 10
+Ka 0.000000 0.000000 0.000000
+Kd 1 1 1
+Ks 0.1 0.1 0.1
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd SeoulTower.jpg
+
+newmtl Photo2
+Ns 10
+Ka 0.000000 0.000000 0.000000
+Kd 1 1 1
+Ks 0.1 0.1 0.1
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd TokyoTower.jpg
+
+newmtl Photo3
+Ns 10
+Ka 0.000000 0.000000 0.000000
+Kd 1 1 1
+Ks 0.1 0.1 0.1
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd EiffelTower.jpg

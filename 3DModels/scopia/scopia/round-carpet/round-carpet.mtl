@@ -1,0 +1,23 @@
+# Blender MTL File: 'round-carpet.blend'
+# Material Count: 2
+
+newmtl carpet_texture
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.783040 0.733426
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd round-carpet-texture.jpg
+
+newmtl contour
+Ns 76.470588
+Ka 1.000000 1.000000 1.000000
+Kd 0.104554 0.040817 0.018016
+Ks 0.054839 0.054839 0.054839
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2

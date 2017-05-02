@@ -1,0 +1,41 @@
+# solar_panel_140W.mtl
+#
+# Created by Ola-Kristian HOFF
+# http://sourceforge.net/p/sweethome3d/d-models/379/
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+#
+
+newmtl back
+illum 1
+Ka 0.2 0.2 0.2
+Kd 0.75 0.75 0.75
+Ks 0.0 0.0 0.0
+Ns 1.0
+
+newmtl glass
+illum 3
+Ka 0.2 0.2 0.2
+Kd 0.0 0.1 0.5
+Ks 1.0 1.0 1.0
+Ns 128.0
+Ni 1.0
+d 0.1
+
+newmtl frame
+illum 3
+Ka 0.2 0.2 0.2
+Kd 1.0 1.0 1.0
+Ks 1.0 1.0 1.0
+Ns 128.0
+map_Kd metal_narrow_vertical.jpg
+
+newmtl cells
+illum 3
+Ka 0.2 0.2 0.2
+Kd 1.0 1.0 1.0
+Ks 1.0 1.0 1.0
+Ns 128.0
+map_Kd silicon_cell.jpg

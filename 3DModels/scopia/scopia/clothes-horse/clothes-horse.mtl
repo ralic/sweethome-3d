@@ -1,0 +1,20 @@
+# Blender MTL File: 'clothes-horse.blend'
+# Material Count: 2
+
+newmtl white-metal
+Ns 213.725490
+Ka 0.000000 0.000000 0.000000
+Kd 0.936749 0.940391 0.877954
+Ks 0.370968 0.370968 0.370968
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl yellow-pastic
+Ns 78.431373
+Ka 0.000000 0.000000 0.000000
+Kd 0.969921 0.868868 0.042414
+Ks 0.145161 0.145161 0.145161
+Ni 1.000000
+d 1.000000
+illum 2

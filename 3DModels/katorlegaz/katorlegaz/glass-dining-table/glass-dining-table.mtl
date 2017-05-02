@@ -1,0 +1,22 @@
+# Blender3D MTL File: glass-dining-table.blend
+# Material Count: 2
+newmtl Black_paint
+Ns 256.862745
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.881118 0.881118 0.881118
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl tabletop
+Ns 390.196078
+Ka 0.000000 0.000000 0.000000
+Kd 0.480000 0.560000 0.560000
+Ks 0.900000 0.900000 0.900000
+Ni 1.550000
+d 0.650000
+illum 2
+
+

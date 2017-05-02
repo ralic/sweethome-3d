@@ -1,0 +1,22 @@
+# Blender3D MTL File: office_tables.blend
+# Material Count: 2
+newmtl alumain
+Ns 98.039216
+Ka 0.000000 0.000000 0.000000
+Kd 0.565171 0.565171 0.565171
+Ks 1.427574 1.427574 1.427574
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl cristal_limpio
+Ns 66.666667
+Ka 0.000000 0.000000 0.000000
+Kd 0.662773 0.713898 0.793533
+Ks 0.213060 0.213060 0.213060
+Ni 1.500000
+d 0.250000
+illum 2
+
+

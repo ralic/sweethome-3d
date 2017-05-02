@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/SweetHome3D"/>
+	<classpathentry kind="lib" path="/SweetHome3D/lib/batik-svgpathparser-1.7.jar"/>
+	<classpathentry kind="lib" path="/SweetHome3D/lib/j3dcore.jar"/>
+	<classpathentry kind="lib" path="/SweetHome3D/lib/vecmath.jar"/>
+	<classpathentry kind="lib" path="/SweetHome3D/libtest/AppleJavaExtensions.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="classes"/>
+</classpath>

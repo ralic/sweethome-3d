@@ -1,0 +1,23 @@
+# Blender3D MTL File: wardrobe1.blend
+# Material Count: 2
+newmtl metalic_suau
+Ns 37.254902
+Ka 0.000000 0.000000 0.000000
+Kd 0.473274 0.473274 0.473274
+Ks 0.965606 0.965606 0.965606
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl madera_armario2_rojiza.jpg.001
+Ns 80.392157
+Ka 0.000000 0.000000 0.000000
+Kd 0.774389 0.507886 0.197039
+Ks 0.205634 0.205634 0.205634
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd rojiza.jpg
+
+

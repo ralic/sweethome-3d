@@ -1,0 +1,23 @@
+# Blender3D MTL File: 
+# Material Count: 2
+newmtl alumain.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.452137 0.452137 0.452137
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl woodred_woodred.j_woodred.jpg
+Ns 47.058824
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.024890 0.024890 0.024890
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd woodred.jpg
+
+

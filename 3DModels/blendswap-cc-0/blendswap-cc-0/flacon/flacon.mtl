@@ -1,0 +1,20 @@
+# Blender MTL File: 'Flacon.blend'
+# Material Count: 2
+
+newmtl FlakonSmokeGlassMat
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.2 0.2 0.2
+Ks 0.8 0.8 0.8
+Ni 1.000000
+d 0.85
+illum 2
+
+newmtl GlasKappe
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.5 0.5 0.5
+Ks 0.8 0.8 0.8
+Ni 1.000000
+d 0.5
+illum 2

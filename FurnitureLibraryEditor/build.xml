@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<!-- build.xml
+
+     Furniture Library Editor, Copyright (c) 2010-2015 Emmanuel PUYBARET / eTeks <info@eteks.com>
+     
+     Ant build file. Available targets :
+     - furnitureLibraryEditor              : Builds FurnitureLibraryEditor.jar file in build directory
+     - furnitureLibraryEditorJarExecutable : Builds FurnitureLibraryEditor-version.jar file 
+     - sourceArchive                       : Builds FurnitureLibraryEditor-version-src.zip file
+-->
+<project basedir="." default="furnitureLibraryEditorJarExecutable" name="FurnitureLibraryEditor">
+  <!-- The current version of the Furniture Library Editor -->
+  <property name="version" value="1.20"/>
+
+  <target name="furnitureLibraryEditor" 
+          description="Builds build/FurnitureLibraryEditor.jar with all its classes">
+    <!-- Compile Sweet Home 3D -->
+    <mkdir dir="build/classes"/>
+    <javac srcdir="../SweetHome3D/src" destdir="build/classes"
+           encoding="ISO-8859-1" target="1.5">
+      <!-- Use lib as an extension directory to override default Java 3D libraries -->
+      <extdirs>
+        <pathelement location="../SweetHome3D/lib"/>
+      </extdirs>
+      <classpath>
+        <pathelement location="../SweetHome3D/libtest/AppleJavaExtensions.jar"/>
+        <pathelement location="../SweetHome3D/libtest/jnlp.jar"/>
+      </classpath>
+    </javac>
+    <!-- Compile Furniture Library Editor -->
+    <javac srcdir="src" destdir="build/classes"
+           encoding="ISO-8859-1" target="1.5">
+      <classpath>
+        <pathelement location="build/classes"/>
+        <pathelement location="../SweetHome3D/lib/batik-svgpathparser-1.7.jar"/>
+        <pathelement location="../SweetHome3D/libtest/AppleJavaExtensions.jar"/>
+      </classpath>
+    </javac>
+    
+    <!-- Copy resources files of supported languages -->
+    <copy todir="build/classes">
+      <fileset dir="src">
+        <exclude name="**/*.java"/>
+        <exclude name="**/package.html"/> 
+      </fileset>
+    </copy>
+    <copy todir="build/classes">
+      <fileset dir="../SweetHome3D/src">
+        <include name="**"/>
+        <exclude name="**/*.java"/>
+        <exclude name="**/package.html"/> 
+        <exclude name="**/*_*.properties"/>
+        <exclude name="com/eteks/sweethome3d/io/DefaultFurniture*.*"/>
+        <exclude name="com/eteks/sweethome3d/io/Contributed*.*"/>
+        <exclude name="com/eteks/sweethome3d/io/DefaultTextures*.*"/>
+        <exclude name="com/eteks/sweethome3d/io/resources/**"/>
+        <exclude name="com/eteks/sweethome3d/swing/resources/icons/jfc/*.*"/>
+        <exclude name="**/help/**"/>
+      </fileset>
+    </copy>
+    <copy todir="build/classes">
+      <fileset dir="../SweetHome3D/src">
+        <include name="**/*_fr.properties"/>
+        <include name="com/eteks/sweethome3d/io/resources/patterns/**"/>
+        <exclude name="com/eteks/sweethome3d/io/DefaultFurniture*.*"/>
+        <exclude name="com/eteks/sweethome3d/io/Contributed*.*"/>
+        <exclude name="com/eteks/sweethome3d/io/DefaultTextures*.*"/>
+      </fileset>
+    </copy>
+    
+    <!-- Create FurnitureLibraryEditor.jar with only required parts of Sweet Home 3D -->
+    <zip destfile="build/FurnitureLibraryEditor.jar">
+      <fileset dir="build/classes">
+        <exclude name="com/eteks/sweethome3d/*.*"/>
+        <exclude name="com/eteks/sweethome3d/resources/**"/>
+        <exclude name="com/eteks/sweethome3d/applet/**"/>
+        <exclude name="com/eteks/sweethome3d/io/AutoRecovery**"/>
+        <exclude name="com/eteks/sweethome3d/plugin/**"/>
+        <exclude name="com/eteks/sweethome3d/swing/Furniture*"/>
+        <exclude name="com/eteks/sweethome3d/swing/Home*"/>
+        <exclude name="com/eteks/sweethome3d/swing/Import*"/>
+        <exclude name="com/eteks/sweethome3d/swing/BackgroundImageWizard*"/>
+        <exclude name="com/eteks/sweethome3d/swing/Compass*"/>
+        <exclude name="com/eteks/sweethome3d/swing/Plan*"/>
+        <exclude name="com/eteks/sweethome3d/swing/MultipleLevelsPlan*"/>
+        <exclude name="com/eteks/sweethome3d/swing/Label*"/>
+        <exclude name="com/eteks/sweethome3d/swing/Level*"/>
+        <exclude name="com/eteks/sweethome3d/swing/Room*"/>
+        <exclude name="com/eteks/sweethome3d/swing/Wall*"/>
+        <exclude name="com/eteks/sweethome3d/swing/ObserverCamera*"/>
+        <exclude name="com/eteks/sweethome3d/swing/PageSetup*"/>
+        <exclude name="com/eteks/sweethome3d/swing/PrintPreview*"/>
+        <exclude name="com/eteks/sweethome3d/swing/Photo*"/>
+        <exclude name="com/eteks/sweethome3d/swing/*Video*"/>
+        <exclude name="com/eteks/sweethome3d/swing/resources/**"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/Furniture*Controller*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/Home*Controller*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/Import*Controller*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/BackgroundImageWizardController*"/>
+        <exclude name="com/eteks/sweethome3d/iewcontroller/Compass*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/PlanController*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/Label*Controller*"/>
+        <exclude name="com/eteks/sweethome3d/iewcontroller/ObserverCamera*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/Room*Controller*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/Wall*Controller*"/>
+        <exclude name="com/eteks/sweethome3d/iewcontroller/ObserverCamera*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/PageSetup*Controller*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/PrintPreview*Controller*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/Photo*Controller*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/Video*Controller*"/>
+        <exclude name="com/eteks/sweethome3d/viewcontroller/resources/*Wizard*"/>
+      </fileset>
+      <fileset dir="build/classes">
+        <include name="com/eteks/sweethome3d/swing/resources/icons/tango/image-*.png"/>
+        <include name="com/eteks/sweethome3d/swing/FurnitureToolTip*"/>
+      </fileset>
+    </zip>
+    <delete dir="build/classes"/>
+  </target>
+
+  <target name="jogl-java3d"
+          description="Builds jogl-java3d.jar that contains only packages required for Java 3D">
+    <mkdir dir="build"/>
+    <zip destfile="build/java3d-1.6/jogl-java3d.jar">
+      <zipfileset src="../SweetHome3D/lib/java3d-1.6/jogl-all.jar"  
+        excludes="com/jogamp/graph/**, com/jogamp/newt/**, com/jogamp/opengl/swt/**, com/jogamp/opengl/util/**,
+                  javax/media/opengl/Debug*, javax/media/opengl/Trace*,
+                  jogamp/graph/**, jogamp/newt/**, jogl/util/data/av/**"/>
+      <zipfileset src="../SweetHome3D/lib/java3d-1.6/jogl-all.jar"  
+        includes="com/jogamp/opengl/util/GLBuffers.class"/>
+    </zip>
+  </target>
+
+  <target name="furnitureLibraryEditorJarExecutable" depends="furnitureLibraryEditor,jogl-java3d"
+          description="Builds FurnitureLibraryEditor-version.jar executable Jar">
+    <!-- Create FurnitureLibraryEditor-version.jar containing Furniture Library Editor classes and resources,
+         and other DLLs and jars -->
+    <jar destfile="FurnitureLibraryEditor-${version}.jar">
+      <manifest>
+        <attribute name="Main-Class" value="com.eteks.furniturelibraryeditor.FurnitureLibraryEditorBootstrap"/>
+      </manifest>
+      <zipfileset src="build/FurnitureLibraryEditor.jar"/>
+      <fileset dir="../SweetHome3D/lib">
+        <include name="*.jar"/>
+        <include name="macosx/*.jar"/>
+        <include name="java3d-1.6/*.jar"/>
+      	<exclude name="java3d-1.6/jogl-all.jar"/>
+        <exclude name="freehep-vectorgraphics-svg-*.jar"/>
+        <exclude name="iText-*.jar"/>
+        <exclude name="sunflow-*.jar"/>
+        <exclude name="jmf.jar"/>
+      </fileset>
+      <fileset dir="build">
+        <include name="java3d-1.6/jogl-java3d.jar"/>
+      </fileset>
+      <fileset dir="../SweetHome3D/lib">
+        <include name="windows/**/*.dll"/>
+        <include name="java3d-1.6/windows/**/*.dll"/>
+        <include name="linux/**/*.so"/>
+        <include name="java3d-1.6/linux/**/*.so"/>
+        <include name="macosx/*.jnilib"/>
+        <include name="java3d-1.6/macosx/*.jnilib"/>
+      </fileset>
+      <fileset dir="../SweetHome3D/libtest">
+        <include name="jnlp.jar"/>
+      </fileset>
+      <fileset dir="../SweetHome3D">
+        <include name="LICENSE.TXT"/>
+        <include name="COPYING.TXT"/>
+        <include name="THIRDPARTY-LICENSE-JAVA3D.TXT"/>
+        <include name="THIRDPARTY-LICENSE-TANGO.TXT"/>
+        <include name="THIRDPARTY-LICENSE-CONTRIBUTIONS.TXT"/>
+      </fileset>
+    </jar>
+ 
+    <!-- Clean build directory -->
+    <delete dir="build"/>
+
+    <echo message="FurnitureLibraryEditor-${version}.jar ready for ftp"/>
+  </target>
+
+  <!-- Builds FurnitureLibraryEditor-version-src.zip archive that contains 
+       FurnitureLibraryEditor source files in directory named FurnitureLibraryEditor-version-src -->
+  <target name="sourceArchive"
+          description="Builds FurnitureLibraryEditor-version-src.zip archive">
+    <mkdir dir="build/source/FurnitureLibraryEditor-${version}-src"/>
+    <copy todir="build/source/FurnitureLibraryEditor-${version}-src">
+      <fileset dir=".">
+        <include name="build.xml"/>
+        <include name="*.TXT"/>
+        <include name="src/**"/>
+        <!-- Eclipse project files -->
+        <include name=".settings/**"/>
+        <include name=".classpath"/>
+        <include name=".project"/>
+      </fileset>
+    </copy>
+
+    <zip destfile="FurnitureLibraryEditor-${version}-src.zip" basedir="build/source"
+         includes="FurnitureLibraryEditor-${version}-src/**" />
+
+    <!-- Clean build directory -->
+    <delete dir="build"/>
+
+    <echo message="FurnitureLibraryEditor-${version}-src.zip ready for ftp"/>
+  </target>
+</project>

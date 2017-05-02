@@ -1,0 +1,57 @@
+# stove1.mtl Produced by Art of Illusion 2.7.1, Mon May 10 13:52:57 EDT 2010
+#
+# Created by Pencilart
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+newmtl transparentblack
+Kd 0 0 0
+Ks 0.0396 0.0396 0.0396
+Ka 0 0 0
+illum 2
+Ns 0
+d 0.9
+
+newmtl dullmetal
+Kd 0.51 0.4641 0.4641
+Ks 0.34 0.34 0.34
+Ka 0 0 0
+illum 2
+Ns 18
+
+newmtl panel
+Kd 1 1 1
+map_Kd stove11.jpg
+Ks 0 0 0
+Ka 0 0 0
+illum 1
+
+newmtl shinyblack
+Kd 0 0 0
+Ks 0.64 0.64 0.64
+Ka 0 0 0
+illum 2
+Ns 22
+
+newmtl metallic
+Kd 0.1856 0.1856 0.1856
+Ks 0.4582 0.4582 0.4582
+Ka 0 0 0
+illum 2
+Ns 0
+
+newmtl mattblack
+Kd 0 0 0
+Ks 0.4 0.4 0.4
+Ka 0 0 0
+illum 2
+Ns 4
+
+newmtl offwhite
+Kd 0.92 0.86922 0.8096
+Ks 0.84 0.84 0.84
+Ka 0 0 0
+illum 2
+Ns 75

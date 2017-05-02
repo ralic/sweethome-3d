@@ -1,0 +1,57 @@
+# ovenFront.mtl 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# Blender MTL File: 'None'
+#
+# Created by LucaPresidente
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+# Material Count: 5
+
+newmtl 03___Default
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.279200 0.247840 0.241600
+Ks 0.531000 0.531000 0.531000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl 08___Default
+Ns 19.607843
+Ka 0.000000 0.000000 0.000000
+Kd 0.470400 0.470400 0.470400
+Ks 0.459000 0.459000 0.459000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Map__5_Gradient_Ramp.jpg
+map_Ka Map__5_Gradient_Ramp.jpg
+
+newmtl Material__2
+Ns 7.843137
+Ka 0.000000 0.000000 0.000000
+Kd 0.470400 0.470400 0.470400
+Ks 0.639000 0.639000 0.639000
+Ni 1.000000
+d 0.200000
+illum 2
+
+newmtl wire_000000000
+Ns 29.411765
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.350000 0.350000 0.350000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl wire_216102000
+Ns 29.411765
+Ka 0.000000 0.000000 0.000000
+Kd 0.677680 0.320000 0.000000
+Ks 0.350000 0.350000 0.350000
+Ni 1.000000
+d 1.000000
+illum 2

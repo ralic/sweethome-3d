@@ -1,0 +1,12 @@
+# Blender3D MTL File: recycling-bin.blend
+# Material Count: 1
+newmtl PLASTIC_blue
+Ns 154.901961
+Ka 0.000000 0.000000 0.000000
+Kd 0.097276 0.166970 0.416191
+Ks 0.800000 0.800000 0.800000
+Ni 1.000000
+d 1.000000
+illum 2
+
+

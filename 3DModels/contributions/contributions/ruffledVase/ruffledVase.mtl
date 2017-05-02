@@ -1,0 +1,14 @@
+# ruffledVase.mtl Produced by Art of Illusion 2.9, Mon Dec 26 16:19:27 EST 2011
+#
+# Created by Pencilart
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+newmtl Glass
+Kd 0 0 0
+Ks 0.144 0.144 0.144
+Ka 0 0 0
+illum 2
+Ns 127

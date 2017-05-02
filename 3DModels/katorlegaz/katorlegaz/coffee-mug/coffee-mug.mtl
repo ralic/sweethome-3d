@@ -1,0 +1,12 @@
+# Blender3D MTL File: coffee-mug.blend
+# Material Count: 1
+newmtl White_ceramic
+Ns 431.372549
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.350186 1.350186 1.350186
+Ni 1.021455
+d 1.000000
+illum 2
+
+

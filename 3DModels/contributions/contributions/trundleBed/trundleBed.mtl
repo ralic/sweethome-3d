@@ -1,0 +1,29 @@
+# trundleBed.mtl Produced by Art of Illusion 2.7.1, Tue Feb 16 13:40:41 EST 2010
+#
+# Created by Pencilart
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+newmtl white
+Kd 0.87 0.87 0.87
+Ks 0 0 0
+Ka 0 0 0
+illum 1
+newmtl yellow
+Kd 0.99 0.92822 0.6039
+Ks 0 0 0
+Ka 0 0 0
+illum 1
+newmtl whitewood
+Kd 1 1 1
+Ks 0.12 0.12 0.12
+Ka 0 0 0
+illum 2
+Ns 58
+newmtl mattressblue
+Kd 0.75 0.85 1
+Ks 0 0 0
+Ka 0 0 0
+illum 1

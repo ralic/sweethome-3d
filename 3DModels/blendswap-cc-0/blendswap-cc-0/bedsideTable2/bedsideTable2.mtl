@@ -1,0 +1,30 @@
+# Blender MTL File: 'bed.blend'
+# Material Count: 3
+
+newmtl bed_venge
+Ns 20
+Ka 0.000000 0.000000 0.000000
+Kd 0.72 0.62 0.43
+Ks 0.2 0.2 0.2
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd wood10.jpg
+
+newmtl bedside_handle_galvanized
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.7 0.7 0.7
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl bedside_table_feet
+Ns 10
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.1 0.1 0.1
+Ni 1.000000
+d 1.000000
+illum 2

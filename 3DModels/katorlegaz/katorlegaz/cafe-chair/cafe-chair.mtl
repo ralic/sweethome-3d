@@ -1,0 +1,22 @@
+# Blender3D MTL File: cafe-chair.blend
+# Material Count: 2
+newmtl Aluminum
+Ns 105.882353
+Ka 0.000000 0.000000 0.000000
+Kd 0.560000 0.560000 0.560000
+Ks 0.705217 0.705217 0.705217
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl Green_chair
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.800000 0.188304
+Ks 0.382733 0.382733 0.382733
+Ni 1.000000
+d 1.000000
+illum 2
+
+

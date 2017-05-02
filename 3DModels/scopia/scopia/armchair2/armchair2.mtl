@@ -1,0 +1,44 @@
+# Blender3D MTL File: armchair2_sweethome3d.blend
+# Material Count: 4
+newmtl coixi_armchair_tex.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.443551 0.320499 0.069848
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd armchair_tex.jpg
+
+
+newmtl metall
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.063199 0.063199 0.063199
+Ks 1.091519 1.091519 1.091519
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl Material_armchair_tex.jpg
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.633728 0.530829 0.188108
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd armchair_tex.jpg
+
+
+newmtl negrepotes
+Ns 50.980392
+Ka 0.000000 0.000000 0.000000
+Kd 0.279606 0.279606 0.279606
+Ks 1.623887 1.623887 1.623887
+Ni 1.000000
+d 1.000000
+illum 2
+
+

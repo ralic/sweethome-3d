@@ -1,0 +1,21 @@
+# Blender MTL File: 'small_lavatory.blend'
+# Material Count: 2
+newmtl Chrome
+Ns 178.431373
+Ka 0.000000 0.000000 0.000000
+Kd 0.370284 0.370284 0.370284
+Ks 0.647651 0.647651 0.647651
+Ni 1.000000
+d 1.000000
+sharpness 120
+illum 3
+
+
+newmtl Crockery
+Ka 0.980000 0.980000 0.980000
+Kd 0.980000 0.980000 0.980000
+Ks 0.980000 0.980000 0.980000
+Ns 200.745098
+illum 3
+
+

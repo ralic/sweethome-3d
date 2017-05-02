@@ -1,0 +1,22 @@
+# Blender3D MTL File: mid-century-sofa.blend
+# Material Count: 2
+newmtl WOOD_walnut
+Ns 154.901961
+Ka 0.000000 0.000000 0.000000
+Kd 0.364027 0.097947 0.097947
+Ks 0.383813 0.293347 0.230012
+Ni 0.000000
+d 1.000000
+illum 2
+
+
+newmtl TEXTILE_generic
+Ns 17.647059
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.050000 0.050000 0.050000
+Ni 1.000000
+d 1.000000
+illum 2
+
+

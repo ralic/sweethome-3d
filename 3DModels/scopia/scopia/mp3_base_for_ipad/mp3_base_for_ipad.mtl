@@ -1,0 +1,50 @@
+# Blender MTL File: 'mp3_base_for_ipad.blend'
+# Material Count: 5
+
+newmtl grey-maped
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.069978 0.069978 0.069978
+Ks 0.030000 0.030000 0.030000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd mp3_base_for_ipad_texture.jpg
+
+newmtl grey-without-map
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.069978 0.069978 0.069978
+Ks 0.030000 0.030000 0.030000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd mp3_base_for_ipad_texture.jpg
+
+newmtl metalic-grey
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.042027 0.042027 0.042027
+Ks 0.031915 0.031915 0.031915
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl metalic-light
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.548851 0.548851 0.548851
+Ks 0.148936 0.148936 0.148936
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl transparent
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.761270 0.761270 0.761270
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.590425
+illum 1
+map_Kd mp3_base_for_ipad_texture.jpg

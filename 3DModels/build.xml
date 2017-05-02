@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<!-- build.xml
+
+     Copyright (c) 2008-2015 Emmanuel PUYBARET / eTeks <info@eteks.com>. All Rights Reserved.
+     
+     Ant build file. Available targets :
+     - 3DModels : Builds *.sh3f files and include each of them in a .zip file for distribution
+-->
+<project basedir="." default="3DModels" name="SweetHome3D models">
+  <!-- The current version of a SH3F file -->
+  <property name="version" value="1.6.2"/>
+	
+  <target name="3DModels">
+  	<mkdir dir="install"/>
+  	
+    <zip destfile="install/Contributions.sh3f" basedir="contributions"/>
+    <zip destfile="install/3DModels-Contributions-${version}.zip" basedir="install" includes="Contributions.sh3f"/>
+    <zip destfile="install/3DModels-Contributions-${version}.zip" update="true" basedir="." includes="README.TXT"/>
+    <zip destfile="install/3DModels-Contributions-${version}.zip" update="true" basedir="contributions" includes="LICENSE.TXT"/>
+    <delete file="install/Contributions.sh3f"/>
+    
+    <zip destfile="install/Trees.sh3f" basedir="trees"/>
+    <zip destfile="install/3DModels-Trees-${version}.zip" basedir="install" includes="Trees.sh3f"/>
+    <zip destfile="install/3DModels-Trees-${version}.zip" update="true" basedir="." includes="README.TXT"/>
+    <zip destfile="install/3DModels-Trees-${version}.zip" update="true" basedir="trees" includes="LICENSE.TXT"/>
+    <delete file="install/Trees.sh3f"/>
+    
+    <zip destfile="install/Scopia.sh3f" basedir="scopia"/>
+    <zip destfile="install/3DModels-Scopia-${version}.zip" basedir="install" includes="Scopia.sh3f"/>
+    <zip destfile="install/3DModels-Scopia-${version}.zip" update="true" basedir="." includes="README.TXT"/>
+    <zip destfile="install/3DModels-Scopia-${version}.zip" update="true" basedir="scopia" includes="LICENSE.TXT"/>
+    <delete file="install/Scopia.sh3f"/>
+    
+    <zip destfile="install/KatorLegaz.sh3f" basedir="katorlegaz"/>
+    <zip destfile="install/3DModels-KatorLegaz-${version}.zip" basedir="install" includes="KatorLegaz.sh3f"/>
+    <zip destfile="install/3DModels-KatorLegaz-${version}.zip" update="true" basedir="." includes="README.TXT"/>
+    <zip destfile="install/3DModels-KatorLegaz-${version}.zip" update="true" basedir="katorlegaz" includes="LICENSE.TXT"/>
+    <delete file="install/KatorLegaz.sh3f"/>
+
+    <zip destfile="install/Reallusion.sh3f" basedir="reallusion"/>
+    <zip destfile="install/3DModels-Reallusion-${version}.zip" basedir="install" includes="Reallusion.sh3f"/>
+    <zip destfile="install/3DModels-Reallusion-${version}.zip" update="true" basedir="." includes="README.TXT"/>
+    <zip destfile="install/3DModels-Reallusion-${version}.zip" update="true" basedir="reallusion" includes="LICENSE.TXT"/>
+    <delete file="install/Reallusion.sh3f"/>
+
+    <zip destfile="install/LucaPresidente.sh3f" basedir="lucapresidente"/>
+    <zip destfile="install/3DModels-LucaPresidente-${version}.zip" basedir="install" includes="LucaPresidente.sh3f"/>
+    <zip destfile="install/3DModels-LucaPresidente-${version}.zip" update="true" basedir="." includes="README.TXT"/>
+    <zip destfile="install/3DModels-LucaPresidente-${version}.zip" update="true" basedir="lucapresidente" includes="LICENSE.TXT"/>
+    <delete file="install/LucaPresidente.sh3f"/>
+
+    <zip destfile="install/BlendSwap-CC-0.sh3f" basedir="blendswap-cc-0"/>
+    <zip destfile="install/3DModels-BlendSwap-CC-0-${version}.zip" basedir="install" includes="BlendSwap-CC-0.sh3f"/>
+    <zip destfile="install/3DModels-BlendSwap-CC-0-${version}.zip" update="true" basedir="." includes="README.TXT"/>
+    <zip destfile="install/3DModels-BlendSwap-CC-0-${version}.zip" update="true" basedir="blendswap-cc-0" includes="LICENSE.TXT"/>
+    <delete file="install/BlendSwap-CC-0.sh3f"/>
+
+    <zip destfile="install/BlendSwap-CC-BY.sh3f" basedir="blendswap-cc-by"/>
+    <zip destfile="install/3DModels-BlendSwap-CC-BY-${version}.zip" basedir="install" includes="BlendSwap-CC-BY.sh3f"/>
+    <zip destfile="install/3DModels-BlendSwap-CC-BY-${version}.zip" update="true" basedir="." includes="README.TXT"/>
+    <zip destfile="install/3DModels-BlendSwap-CC-BY-${version}.zip" update="true" basedir="blendswap-cc-by" includes="LICENSE.TXT"/>
+    <delete file="install/BlendSwap-CC-BY.sh3f"/>
+
+    <echo message="SH3F files generated in install folder"/>
+  </target>
+</project>

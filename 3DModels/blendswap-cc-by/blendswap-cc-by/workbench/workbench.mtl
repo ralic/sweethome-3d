@@ -1,0 +1,39 @@
+# Blender MTL File: 'workbench.blend'
+# Material Count: 4
+
+newmtl BMD_BeechWood
+Ns 30
+Ka 0.000000 0.000000 0.000000
+Kd 0.78 0.55 0.3
+Ks 0.2 0.2 0.2
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd beech.jpg
+
+newmtl Gray
+Ns 50
+Ka 0.000000 0.000000 0.000000
+Kd 0.72 0.72 0.72
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Board
+Ns 1
+Ka 0.000000 0.000000 0.000000
+Kd 0.65 0.48 0.22
+Ks 0.01 0.01 0.01
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl MidGray
+Ns 30
+Ka 0.000000 0.000000 0.000000
+Kd 0.28 0.28 0.28
+Ks 0.3 0.3 0.3
+Ni 1.000000
+d 1.000000
+illum 2

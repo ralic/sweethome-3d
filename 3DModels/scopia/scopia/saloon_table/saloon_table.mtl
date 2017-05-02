@@ -1,0 +1,23 @@
+# Blender3D MTL File: saloon_table.blend
+# Material Count: 2
+newmtl fusta_taula
+Ns 82.352941
+Ka 0.000000 0.000000 0.000000
+Kd 0.724800 0.602400 0.444000
+Ks 0.470706 0.470706 0.470706
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd rojiza.jpg
+
+
+newmtl cristal_trans
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.500000
+d 0.001000
+illum 2
+
+

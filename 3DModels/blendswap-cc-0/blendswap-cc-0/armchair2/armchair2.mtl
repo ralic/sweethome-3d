@@ -1,0 +1,10 @@
+# Blender MTL File: 'chair.blend'
+# Material Count: 1
+
+newmtl None
+Ns 15
+Ka 0.000000 0.000000 0.000000
+Kd 0.75 0.73 0.7
+Ks 0.15 0.15 0.15
+d 1
+illum 2

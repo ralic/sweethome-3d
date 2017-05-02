@@ -1,0 +1,12 @@
+# Blender3D MTL File: complements1.blend
+# Material Count: 1
+newmtl red
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.691573 0.057151 0.057151
+Ks 0.914590 0.914590 0.914590
+Ni 1.200000
+d 1.000000
+illum 2
+
+

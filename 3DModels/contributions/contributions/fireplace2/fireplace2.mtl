@@ -1,0 +1,28 @@
+#Produced by Art of Illusion 2.7.2, Wed Nov 11 17:45:28 PST 2009
+newmtl darkgray
+Kd 0.41 0.41 0.4
+Ks 0 0 0
+Ka 0 0 0
+illum 1
+newmtl brass
+Kd 0.83 0.7 0
+Ks 1 1 1
+Ka 0 0 0
+illum 2
+Ns 129
+newmtl Default_Texture
+Kd 1 1 1
+Ks 0 0 0
+Ka 0 0 0
+illum 1
+newmtl bricks
+Kd 0.6 0.23 0.23
+Ks 0 0 0
+Ka 0 0 0
+illum 1
+newmtl white
+Kd 1 1 1
+Ks 1 1 1
+Ka 0 0 0
+illum 2
+Ns 129

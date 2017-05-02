@@ -1,0 +1,20 @@
+# Blender MTL File: 'red_solo_cup.blend'
+# Material Count: 2
+
+newmtl Exterior
+Ns 15
+Ka 0.000000 0.000000 0.000000
+Kd 0.06 0.28 0.53
+Ks 0.1 0.1 0.1
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Interior
+Ns 20
+Ka 0.000000 0.000000 0.000000
+Kd 0.95 0.95 0.95
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2

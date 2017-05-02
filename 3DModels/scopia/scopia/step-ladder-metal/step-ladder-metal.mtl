@@ -1,0 +1,20 @@
+# Blender MTL File: 'step-ladder-metal.blend'
+# Material Count: 2
+
+newmtl aluminum
+Ns 192.156863
+Ka 0.000000 0.000000 0.000000
+Kd 0.748400 0.748400 0.748400
+Ks 0.331579 0.331579 0.331579
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl color-plastic-protections
+Ns 100.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.049549 0.049549 0.049549
+Ks 0.342105 0.342105 0.342105
+Ni 1.000000
+d 1.000000
+illum 2

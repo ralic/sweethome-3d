@@ -1,0 +1,31 @@
+# Blender MTL File: 'mini_estereo.blend'
+# Material Count: 3
+
+newmtl metalic
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.401968 0.401968 0.401968
+Ks 0.634021 0.634021 0.634021
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl speaker-material
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd wood-map-speakers.jpg
+
+newmtl stereo-core-material
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd mini_stereo_texture.jpg

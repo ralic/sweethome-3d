@@ -1,0 +1,15 @@
+# Created with Anim8or 0.95
+# Object "object01":
+
+newmtl FABRIC_DYELLOW
+Ka 0.3 0.271 0
+Kd 0.7 0.631 0
+Ks 0 0 0
+Ns 1.0
+
+newmtl WOOD
+Ka 0.286 0.209 0.125
+Kd 0.667 0.489 0.291
+Ks 0.1 0.1 0.1
+Ns 16.0
+

@@ -1,0 +1,24 @@
+# bidet.mtl 3D model
+#
+# Created by LucaPresidente
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+
+newmtl Rectangle02_1
+illum 2
+Ka 0.8275 0.8275 0.8275
+Kd 1.0 1.0 1.0
+Ks 0.972 0.972 0.972
+Ns 10.0
+Ni 1.5
+
+newmtl Cylinder02_2
+illum 2
+Ka 0.7255 0.7255 0.7255
+Kd 0.7255 0.7255 0.7255
+Ks 1.125 1.125 1.125
+Ns 61.0
+Ni 1.5

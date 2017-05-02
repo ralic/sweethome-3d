@@ -1,0 +1,12 @@
+# Blender3D MTL File: window-shutter.blend
+# Material Count: 1
+newmtl PAINT_burgundy
+Ns 154.901961
+Ka 0.000000 0.000000 0.000000
+Kd 0.320000 -0.000000 0.000000
+Ks 0.100000 0.100000 0.100000
+Ni 1.000000
+d 1.000000
+illum 2
+
+

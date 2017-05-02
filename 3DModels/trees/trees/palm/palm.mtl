@@ -1,0 +1,58 @@
+# palm.mtl Produced with Arabaro 2.0 from palm.xml
+#
+# Created by Wolfram Diestel and simplified by Emmanuel Puybaret
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+newmtl stems_2
+Ns 96.078431
+Ka 0.420 0.357 0.235
+Kd 0.420 0.357 0.235
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl trunk
+Ns 96.078431
+Ka 0.420 0.357 0.235
+Kd 0.420 0.357 0.235
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl leaves
+Ns 96.078431
+Ka 0.443 0.569 0.106
+Kd 0.443 0.569 0.106
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl stems_1
+Ns 96.078431
+Ka 0.420 0.357 0.235
+Kd 0.420 0.357 0.235
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl stems_3
+Ns 96.078431
+Ka 0.420 0.357 0.235
+Kd 0.420 0.357 0.235
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+

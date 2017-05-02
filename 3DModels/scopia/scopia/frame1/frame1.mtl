@@ -1,0 +1,41 @@
+# Blender MTL File: 'frames.blend'
+# Material Count: 4
+
+newmtl conglomerado
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.994455 0.915051 0.606358
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl picture
+Ns 407.843137
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.15 0.15 0.15
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd chambord.jpg
+
+newmtl wood_sq1
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.523938 0.199552 0.077713
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd burlwood2_tileable.jpg
+
+newmtl wood_sq1_vert
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.523938 0.199552 0.077713
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd burlwood2_tileable.jpg

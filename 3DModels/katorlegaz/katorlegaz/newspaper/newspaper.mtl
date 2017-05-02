@@ -1,0 +1,12 @@
+# Blender MTL File: 'newspaper.blend'
+# Material Count: 1
+
+newmtl Newspaper
+Ns 10
+Ka 0.000000 0.000000 0.000000
+Kd 0.604953 0.604953 0.604953
+Ks 0.1 0.1 0.1
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Newspaper.jpg

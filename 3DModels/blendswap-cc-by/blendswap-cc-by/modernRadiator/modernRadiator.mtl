@@ -1,0 +1,29 @@
+# Blender MTL File: 'ANY SIZE RADIATOR.blend'
+# Material Count: 7
+
+newmtl White_paint
+Ns 20
+Ka 0.000000 0.000000 0.000000
+Kd 1 1 1
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl armature_chrom
+Ns 95
+Ka 0.000000 0.000000 0.000000
+Kd 0.7 0.7 0.7
+Ks 0.5 0.5 0.5
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl rubber_seal
+Ns 1
+Ka 0.000000 0.000000 0.000000
+Kd 0.1 0.1 0.1 
+Ks 0 0 0
+Ni 1.000000
+d 1.000000
+illum 2

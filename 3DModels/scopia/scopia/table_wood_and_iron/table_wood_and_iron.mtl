@@ -1,0 +1,33 @@
+# Blender3D MTL File: table_wood_and_iron_sweethome3d.blend
+# Material Count: 3
+newmtl glasy
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.538279 0.666044 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.500000
+d 0.213944
+illum 2
+
+
+newmtl wood_wood4table.jpg
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.698579 0.532784 0.165874
+Ks 0.146867 0.146867 0.146867
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd wood4table.jpg
+
+
+newmtl black_iron
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.116856 0.110892 0.110892
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+

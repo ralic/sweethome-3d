@@ -1,0 +1,29 @@
+# poubelleInox.mtl 3D model
+#
+# Created by Gael Bettinelli
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+
+newmtl Grey
+illum 2
+Ka 0.0 0.0 0.0
+Kd 0.6004 0.6004 0.6004
+Ks 0.55 0.55 0.55
+Ns 118.0
+
+newmtl Noir
+illum 1
+Ka 0.0 0.0 0.0
+Kd 0.18 0.18 0.18
+Ks 0.0 0.0 0.0
+Ns 1.0
+
+newmtl Default_Texture
+illum 1
+Ka 0.0 0.0 0.0
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ns 1.0

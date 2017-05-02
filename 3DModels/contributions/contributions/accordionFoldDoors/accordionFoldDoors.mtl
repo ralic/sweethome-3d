@@ -1,0 +1,20 @@
+# accordionFoldDoors.mtl Produced by Art of Illusion 2.6, Thu Jan 08 20:20:29 EST 2009
+#
+# Created by Pencilart
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+newmtl white
+Kd 0.85 0.85 0.85
+Ks 0.31 0.31 0.31
+Ka 0 0 0
+illum 2
+Ns 75
+newmtl Glass
+Kd 0.9 0.9 0.9
+Ks 0 0 0
+Ka 0 0 0
+illum 1
+d 0.5

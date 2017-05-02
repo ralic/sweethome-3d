@@ -1,0 +1,24 @@
+# Blender3D MTL File: complements4.blend
+# Material Count: 2
+newmtl ceramic_ceramica_cas.jpg.001
+Ns 5.882353
+Ka 0.000000 0.000000 0.000000
+Kd 0.844003 0.668921 0.239060
+Ks 0.241369 0.243289 0.147288
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd ceramica_cas.jpg
+
+
+newmtl Material.001_ceramica_cas.jpg.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.706957 0.741660 0.762829
+Ks 0.133384 0.133384 0.133384
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd ceramica_cas.jpg
+
+

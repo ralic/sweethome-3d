@@ -1,0 +1,24 @@
+# Blender MTL File: 'tablet.blend'
+# Material Count: 2
+
+newmtl image-screen
+Ns 54.901961
+Ka 0.287805 0.287805 0.287805
+Kd 0.752311 0.752311 0.752311
+Ks 0.187805 0.187805 0.187805
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 3
+map_Kd screen-image.jpg
+
+newmtl tablet
+Ns 29.411765
+Ka 1.000000 1.000000 1.000000
+Kd 0.752311 0.752311 0.752311
+Ks 0.114634 0.114634 0.114634
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd tablet-texture.jpg

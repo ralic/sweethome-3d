@@ -1,0 +1,60 @@
+# shower_cabin.mtl
+#
+# Created by Ola-Kristian HOFF
+# http://sourceforge.net/p/sweethome3d/d-models/370/
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+
+newmtl frame
+illum 1
+Ka 0.2 0.2 0.2
+Kd 0.81960785 0.8039216 0.8039216
+Ks 0.6953125 0.6953125 0.6953125
+Ns 89.0
+
+newmtl glass
+illum 2
+Ka 0.78431374 0.99607843 1.0
+Kd 0.78431374 0.99607843 1.0
+Ks 0.6015625 0.6015625 0.6015625
+Ns 77.0
+Ni 1
+d 0.19999999
+
+newmtl Lid
+illum 3
+Ka 0.2 0.2 0.2
+Kd 0.6 0.6392157 0.6666667
+Ks 1.0 1.0 1.0
+Ns 128.0
+
+newmtl Drain
+illum 1
+Ka 0.2 0.2 0.2
+Kd 0.14117648 0.18431373 0.25882354
+Ks 0.0 0.0 0.0
+Ns 1.0
+
+newmtl metal
+illum 1
+Ka 0.2 0.2 0.2
+Kd 0.7529412 0.7529412 0.7529412
+Ks 0.0 0.0 0.0
+Ns 1.0
+
+newmtl red
+illum 1
+Ka 0.2 0.2 0.2
+Kd 1.0 0.0 0.0
+Ks 0.0 0.0 0.0
+Ns 1.0
+
+newmtl blue
+illum 1
+Ka 0.2 0.2 0.2
+Kd 0.0 0.0 1.0
+Ks 0.0 0.0 0.0
+Ns 1.0

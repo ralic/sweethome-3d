@@ -1,0 +1,66 @@
+<!--
+   testModel.html 
+   
+   Sweet Home 3D, Copyright (c) 2016 Emmanuel PUYBARET / eTeks <info@eteks.com>
+   
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+ 
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program; if not, write to the Free Software
+   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SweetHome3DJS Test</title>
+<base href="..">
+<script type="text/javascript" src="lib/gl-matrix-min.js"></script>
+<script type="text/javascript" src="lib/jszip.min.js"></script>
+<script type="text/javascript" src="src/core.js"></script>
+<script type="text/javascript" src="src/URLContent.js"></script>
+<script type="text/javascript" src="src/scene3d.js"></script>
+<script type="text/javascript" src="src/HTMLCanvas3D.js"></script>
+<script type="text/javascript" src="src/ModelManager.js"></script>
+<script type="text/javascript" src="src/ModelLoader.js"></script>
+<script type="text/javascript" src="src/OBJLoader.js"></script>
+<script type="text/javascript" src="src/Triangulator.js"></script>
+<script type="text/javascript" src="src/ModelPreviewComponent.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+
+/**
+ * Test ModelPreviewComponent class.
+ */
+function testModel() {
+  var modelPreviewComponent = new ModelPreviewComponent("canvas3D", true);
+  modelPreviewComponent.setModel(new URLContent("test/resources/cube.zip"), null,
+      function(err) {
+        console.log(err); 
+        alert(err); 
+      },
+      function(part, info, percentage) {
+        if (part === Node3D.BINDING_MODEL && percentage === 1) {
+          modelPreviewComponent.startRotationAnimation();
+        }
+      });
+}
+</script>
+
+<canvas id="canvas3D" style="background-color: #CCCCCC; border: 1px solid gray;" 
+		width="600" height="600" tabIndex="1"></canvas>
+
+<script type="text/javascript">
+testModel();
+</script>
+
+</body>
+</html>

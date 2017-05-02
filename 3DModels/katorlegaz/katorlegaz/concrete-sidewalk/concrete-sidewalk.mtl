@@ -1,0 +1,20 @@
+# Blender MTL File: 'concrete-sidewalk.blend'
+# Material Count: 2
+
+newmtl Concrete
+Ns 498.039216
+Ka 0.000000 0.000000 0.000000
+Kd 0.700000 0.700000 0.700000
+Ks 0.020000 0.020000 0.020000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Sidewalk
+Ns 498.039216
+Ka 0.000000 0.000000 0.000000
+Kd 0.700000 0.700000 0.700000
+Ks 0.020000 0.020000 0.020000
+Ni 1.000000
+d 1.000000
+illum 2

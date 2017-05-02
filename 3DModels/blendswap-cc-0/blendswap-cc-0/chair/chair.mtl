@@ -1,0 +1,22 @@
+# Blender MTL File: 'Mesa_decorada.blend'
+# Material Count: 2
+
+newmtl Madeira_cadeira
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd wood.jpg
+
+newmtl Cadeiras
+Ns 1
+Ka 0.000000 0.000000 0.000000
+Kd 0.74 0.74 0.74
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd tecido.jpg

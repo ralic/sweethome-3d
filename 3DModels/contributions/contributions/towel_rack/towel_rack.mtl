@@ -1,0 +1,24 @@
+# towel_rack.mtl
+#
+# Created by Ola-Kristian HOFF
+# http://sourceforge.net/p/sweethome3d/d-models/379/
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+#
+
+newmtl towelrack
+illum 1
+Ka 0.2 0.2 0.2
+Kd 0.76862746 0.6862745 0.33333334
+Ks 0.25 0.25 0.25
+Ns 32.0
+
+newmtl towel
+illum 1
+Ka 0.2 0.2 0.2
+Kd 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ns 1.0
+map_Kd towel.jpg

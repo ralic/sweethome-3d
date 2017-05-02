@@ -1,0 +1,49 @@
+# Blender MTL File: 'intercom.blend'
+# Material Count: 5
+
+newmtl beige-plastic
+Ns 62.745098
+Ka 0.000000 0.000000 0.000000
+Kd 0.841200 0.823416 0.788511
+Ks 0.208696 0.208696 0.208696
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl beige-plastic-dark-button
+Ns 54.901961
+Ka 0.000000 0.000000 0.000000
+Kd 0.507066 0.181910 0.201292
+Ks 0.104348 0.104348 0.104348
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl green-light
+Ns 1.960784
+Ka 0.000000 0.000000 0.000000
+Kd 0.504484 0.615175 0.000000
+Ks 0.104348 0.104348 0.104348
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl wire
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd intercom_with_screen_prueba_texture.png
+
+newmtl wire_intercom_wire.jpg
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd intercom_wire.jpg

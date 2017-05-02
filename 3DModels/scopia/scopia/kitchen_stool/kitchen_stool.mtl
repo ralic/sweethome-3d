@@ -1,0 +1,43 @@
+# Blender3D MTL File: kitchen_stool.blend
+# Material Count: 4
+newmtl white_leather_leather_bump.png
+Ns 80.392157
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.350347 0.350347 0.350347
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd leather_bump.png
+
+
+newmtl blue_plastic
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.034510 0.047059 0.241569
+Ks 0.799306 0.799306 0.799306
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl black_plastic
+Ns 50.980392
+Ka 0.000000 0.000000 0.000000
+Kd 0.067562 0.067562 0.067562
+Ks 0.809306 0.809306 0.809306
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl metal
+Ns 305.882353
+Ka 0.000000 0.000000 0.000000
+Kd 0.198422 0.198422 0.198422
+Ks 1.288196 1.288196 1.288196
+Ni 1.000000
+d 1.000000
+illum 2
+
+

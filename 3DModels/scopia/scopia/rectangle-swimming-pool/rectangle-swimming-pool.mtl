@@ -1,0 +1,48 @@
+# Blender MTL File: 'rectangle-swimming-pool.blend'
+# Material Count: 5
+
+newmtl dark-blue-plastic
+Ns 43.137255
+Ka 0.000000 0.000000 0.000000
+Kd 0.051697 0.095030 0.326375
+Ks 0.037815 0.037815 0.037815
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl dark-blue-plastic-2
+Ns 43.137255
+Ka 0.000000 0.000000 0.000000
+Kd 0.035890 0.130408 0.429225
+Ks 0.037815 0.037815 0.037815
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl light-blue-plastic
+Ns 43.137255
+Ka 0.000000 0.000000 0.000000
+Kd 0.111769 0.212142 0.761271
+Ks 0.037815 0.037815 0.037815
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl water
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.353518 0.800000
+Ks 0.361314 0.361314 0.361314
+Ni 1.000000
+d 0.620438
+illum 2
+map_Kd /home/carlos/Cloud/Trabajo/clientes/Emmanuel_Puybaret/modelos3d/jacuzzi/jacuzzy_normal_map.jpg
+
+newmtl white-metal
+Ns 21.568627
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.054404 0.054404 0.054404
+Ni 1.000000
+d 1.000000
+illum 2

@@ -1,0 +1,28 @@
+# Blender MTL File: 'Bed2.blend'
+# Material Count: 2
+
+newmtl Bottom
+Ns 1
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.1 0.1 0.1
+d 1
+illum 2
+
+newmtl White
+Ns 15
+Ka 0.000000 0.000000 0.000000
+Kd 1 1 1
+Ks 0.2 0.2 0.2
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl Mattress
+Ns 1
+Ka 0.000000 0.000000 0.000000
+Kd 0.85 0.83 0.77
+Ks 0 0 0
+Ni 1.000000
+d 1.000000
+illum 2

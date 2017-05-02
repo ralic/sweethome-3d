@@ -1,0 +1,49 @@
+# Blender MTL File: 'electric_water_heater_v2.blend'
+# Material Count: 5
+
+newmtl gold
+Ns 325.490196
+Ka 0.000000 0.000000 0.000000
+Kd 0.358839 0.345728 0.073136
+Ks 0.618557 0.618557 0.618557
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl white
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl white-metal
+Ns 354.901961
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl white-metal-textured
+Ns 354.901961
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd electric_water_heater_256.jpg
+
+newmtl white-metal_electric_water_heater_256.jpg
+Ns 354.901961
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd electric_water_heater_256.jpg

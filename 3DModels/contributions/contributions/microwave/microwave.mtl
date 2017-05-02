@@ -1,0 +1,23 @@
+#Produced by Art of Illusion 2.7.2, Wed Nov 18 16:11:30 PST 2009
+newmtl stainless
+Kd 0.77 0.77 0.77
+Ks 1 1 1
+Ka 0 0 0
+illum 2
+Ns 52
+newmtl Default_Texture
+Kd 1 1 1
+Ks 0 0 0
+Ka 0 0 0
+illum 1
+newmtl handle
+Kd 0.9715 0.9285 0.9285
+Ks 1 1 1
+Ka 0 0 0
+illum 2
+Ns 123
+newmtl black
+Kd 0.16 0.16 0.16
+Ks 0 0 0
+Ka 0 0 0
+illum 1

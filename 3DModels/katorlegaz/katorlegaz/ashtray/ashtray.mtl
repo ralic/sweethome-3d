@@ -1,0 +1,12 @@
+# Blender3D MTL File: ashtray.blend
+# Material Count: 1
+newmtl GLASS
+Ns 488.235294
+Ka 0.000000 0.000000 0.000000
+Kd 0.480000 0.560000 0.560000
+Ks 1.000000 1.000000 1.000000
+Ni 1.550000
+d 0.200000
+illum 2
+
+

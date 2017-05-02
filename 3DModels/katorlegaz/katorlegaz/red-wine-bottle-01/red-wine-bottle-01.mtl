@@ -1,0 +1,21 @@
+# Blender MTL File: 'red-wine-bottle-01.blend'
+# Material Count: 2
+
+newmtl Beaujolais
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd Beaujolais-Kator.jpg
+
+newmtl bottle_glass_green
+Ns 1000.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.160000 0.000000
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 0.700000
+illum 2

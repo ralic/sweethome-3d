@@ -1,0 +1,52 @@
+# weepingWillow.mtl Produced with Arabaro 2.0 from weeping_willow.xml 
+#
+# Created by Wolfram Diestel and simplified by Emmanuel Puybaret
+#
+# This file is distributed under Free Art License, see http://artlibre.org/licence/lal/en for more informations
+# and under CC-BY Creative Commons Attribution 3.0 Unported license, see http://creativecommons.org/licenses/by/3.0/
+# at your choice
+# 
+newmtl trunk
+Ns 96.078431
+Ka 0.290 0.271 0.255
+Kd 0.290 0.271 0.255
+Ks 0.1 0.1 0.1
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl stems_1
+Ns 96.078431
+Ka 0.306 0.357 0.224
+Kd 0.306 0.357 0.224
+Ks 0.1 0.1 0.1
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl stems_2
+Ns 96.078431
+Ka 0.470 0.530 0.26
+Kd 0.470 0.530 0.26
+Ks 0.300000 0.300000 0.300000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl stems_3
+Ns 96.078431
+Ka 0.470 0.530 0.26
+Kd 0.470 0.530 0.26
+Ks 0.300000 0.300000 0.300000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl leaves
+Ns 96.078431
+Ka 0.349 0.612 0.106
+Kd 0.349 0.612 0.106
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2

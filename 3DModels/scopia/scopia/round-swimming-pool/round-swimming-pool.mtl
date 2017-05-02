@@ -1,0 +1,57 @@
+# Blender MTL File: 'round-swimming-pool.blend'
+# Material Count: 6
+
+newmtl blue-plastic
+Ns 72.549020
+Ka 0.000000 0.000000 0.000000
+Kd 0.202877 0.406370 1.000000
+Ks 0.071429 0.071429 0.071429
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl green-plastic
+Ns 72.549020
+Ka 0.000000 0.000000 0.000000
+Kd 0.319292 1.000000 0.200710
+Ks 0.071429 0.071429 0.071429
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl pink-plastic
+Ns 72.549020
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.141413 0.935071
+Ks 0.071429 0.071429 0.071429
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl water
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.353518 0.800000
+Ks 0.361314 0.361314 0.361314
+Ni 1.000000
+d 0.620438
+illum 2
+
+newmtl water_normal
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.353518 0.800000
+Ks 0.361314 0.361314 0.361314
+Ni 1.000000
+d 0.620438
+illum 2
+map_Kd /home/carlos/Cloud/Trabajo/clientes/Emmanuel_Puybaret/modelos3d/jacuzzi/jacuzzy_normal_map.jpg
+
+newmtl yellow-plastic
+Ns 72.549020
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.860507 0.146324
+Ks 0.071429 0.071429 0.071429
+Ni 1.000000
+d 1.000000
+illum 2

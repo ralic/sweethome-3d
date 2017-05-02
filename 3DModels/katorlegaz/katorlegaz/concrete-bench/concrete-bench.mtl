@@ -1,0 +1,22 @@
+# Blender3D MTL File: concrete-bench.blend
+# Material Count: 2
+newmtl Concrete
+Ns 498.039216
+Ka 0.000000 0.000000 0.000000
+Kd 0.695459 0.687519 0.711519
+Ks 0.020000 0.020000 0.020000
+Ni 0.000000
+d 1.000000
+illum 2
+
+
+newmtl Wood_slats
+Ns 23.529412
+Ka 0.000000 0.000000 0.000000
+Kd 0.570125 0.472098 0.270477
+Ks 0.258993 0.258993 0.258993
+Ni 0.000000
+d 1.000000
+illum 2
+
+
